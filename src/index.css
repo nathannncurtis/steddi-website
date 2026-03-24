@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap');
+
+@theme {
+  --color-bg: #0E0D12;
+  --color-surface: #1A1920;
+  --color-surface-2: #222130;
+  --color-accent: #9B8EC4;
+  --color-accent-light: #BAADDE;
+  --color-sage: #22BD73;
+  --color-warm-red: #E84D3D;
+  --color-text-primary: #F0EEEB;
+  --color-text-secondary: #9A9792;
+  --color-text-muted: #5A5854;
+  --color-border: rgba(155, 142, 196, 0.08);
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.03em;
+}
+
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
