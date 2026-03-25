@@ -3,27 +3,41 @@ import { MapPin, ChevronRight } from 'lucide-react'
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="hero-inner">
-        <div className="hero-content">
-          <div className="hero-badge">
-            <MapPin size={16} />
-            Built for daily commuters
+      <div className="hero-video-wrap">
+        <video
+          className="hero-video"
+          src="/assets/steddi.mp4"
+          muted
+          playsInline
+          autoPlay
+          loop
+        />
+        <div className="hero-overlay" />
+      </div>
+
+      <div className="hero-content-wrap">
+        <div className="hero-inner">
+          <div className="hero-content">
+            <div className="hero-badge">
+              <MapPin size={16} />
+              Built for daily commuters
+            </div>
+            <h1>Your route.<br /><span className="gradient">Your rules.</span></h1>
+            <p>Steddi learns your commute and only reroutes when it actually matters. No unnecessary detours. No algorithm overriding your judgment.</p>
+            <div className="hero-buttons">
+              <a href="#download" className="btn-primary">
+                <AppleIcon />
+                Join the Waitlist
+              </a>
+              <a href="#how" className="btn-ghost">
+                See how it works
+                <ChevronRight size={16} />
+              </a>
+            </div>
           </div>
-          <h1>Your route.<br /><span className="gradient">Your rules.</span></h1>
-          <p>Steddi learns your commute and only reroutes when it actually matters. No unnecessary detours. No algorithm overriding your judgment.</p>
-          <div className="hero-buttons">
-            <a href="#download" className="btn-primary">
-              <AppleIcon />
-              Download on iOS
-            </a>
-            <a href="#how" className="btn-ghost">
-              See how it works
-              <ChevronRight size={16} />
-            </a>
+          <div className="hero-phone">
+            <img src="/assets/01_home.png" alt="Steddi navigation app" />
           </div>
-        </div>
-        <div className="hero-phone">
-          <img src="/assets/screenshot_home.png" alt="Steddi navigation app" />
         </div>
       </div>
     </section>
