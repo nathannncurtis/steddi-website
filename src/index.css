@@ -568,7 +568,61 @@ a:focus-visible, button:focus-visible {
 
 .cta-section .btn-primary {
   position: relative;
+}
+
+/* Waitlist form */
+.waitlist-form {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   margin-top: 40px;
+}
+
+.waitlist-form input {
+  padding: 16px 24px;
+  border-radius: 14px;
+  border: 1px solid var(--accent-border);
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  width: 300px;
+  outline: none;
+  transition: border-color 200ms ease;
+}
+
+.waitlist-form input:focus {
+  border-color: var(--accent);
+}
+
+.waitlist-form input::placeholder {
+  color: var(--text-3);
+}
+
+.waitlist-error {
+  width: 100%;
+  text-align: center;
+  color: #E84D3D;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.waitlist-success {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 40px;
+  color: var(--sage);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.waitlist-success svg {
+  color: var(--sage);
+  flex-shrink: 0;
 }
 
 /* ===== FOOTER ===== */
