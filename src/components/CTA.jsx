@@ -1,4 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
+import emailjs from '@emailjs/browser'
+
+const SERVICE_ID = 'service_bj451am'
+const TEMPLATE_ID = 'template_pkr22s2'
+const PUBLIC_KEY = 'a9uoWADSns_pQIt9M'
 
 export default function CTA() {
   const ref = useRef(null)
@@ -6,6 +11,10 @@ export default function CTA() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState('')
+
+  useEffect(() => {
+    emailjs.init(PUBLIC_KEY)
+  }, [])
 
   useEffect(() => {
     const el = ref.current
@@ -29,18 +38,9 @@ export default function CTA() {
     setError('')
 
     try {
-      const res = await fetch('https://formspree.io/f/info@steddi.io', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body: JSON.stringify({ email, _subject: 'New Steddi Waitlist Signup' })
-      })
-
-      if (res.ok) {
-        setSubmitted(true)
-      } else {
-        setError('Something went wrong. Try again.')
-      }
-    } catch {
+      await emailjs.send(SERVICE_ID, TEMPLATE_ID, { email })
+      setSubmitted(true)
+    } catch (err) {
       setError('Something went wrong. Try again.')
     }
 
@@ -58,7 +58,7 @@ export default function CTA() {
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
             </svg>
-            <span>You're on the list. We'll let you know when Steddi launches.</span>
+            <span>You're on the list. Check your inbox.</span>
           </div>
         ) : (
           <form className="waitlist-form" onSubmit={handleSubmit}>
