@@ -171,6 +171,25 @@ a:focus-visible, button:focus-visible {
   );
 }
 
+.hero-content-wrap::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(155,142,196,0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: drift 20s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes drift {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(60px, -30px); }
+  66% { transform: translate(-40px, 20px); }
+}
+
 .hero-content-wrap {
   position: relative;
   z-index: 2;
@@ -279,6 +298,12 @@ a:focus-visible, button:focus-visible {
   width: 320px;
   position: relative;
   z-index: 1;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 .hero-phone::before {
@@ -288,6 +313,12 @@ a:focus-visible, button:focus-visible {
   background: radial-gradient(circle, rgba(155,142,196,0.1) 0%, transparent 70%);
   border-radius: 50%;
   z-index: 0;
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
 }
 
 /* ===== FEATURES ===== */
@@ -331,11 +362,14 @@ a:focus-visible, button:focus-visible {
   border-radius: 20px;
   padding: 36px;
   transition: border-color 250ms ease, transform 250ms ease, box-shadow 250ms ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .feature-card:hover {
   border-color: rgba(155,142,196,0.18);
-  transform: translateY(-4px);
+  transform: translateY(-4px) perspective(800px) rotateX(1deg) rotateY(-1deg);
   box-shadow: 0 12px 40px rgba(0,0,0,0.2);
 }
 
@@ -361,6 +395,10 @@ a:focus-visible, button:focus-visible {
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-2);
+}
+
+.craft-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* ===== SHOWCASE ===== */
@@ -409,6 +447,7 @@ a:focus-visible, button:focus-visible {
 .showcase-phone img {
   width: 280px;
   box-shadow: 0 40px 80px rgba(0,0,0,0.4);
+  animation: float 7s ease-in-out infinite;
 }
 
 .showcase-phone::before {
@@ -494,6 +533,9 @@ a:focus-visible, button:focus-visible {
   border: 1px solid var(--accent-border);
   border-radius: 20px;
   padding: 36px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .privacy-icon {

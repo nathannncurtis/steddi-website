@@ -3,20 +3,20 @@ import { useEffect, useRef } from 'react'
 const sections = [
   {
     image: '/assets/04_nav_portrait.png',
-    title: 'Navigation that stays out of your way',
-    text: 'A custom-built turn-by-turn UI designed for glanceability. Large maneuver icons, clear instructions, and a speedometer — no clutter, no distractions. Just the road ahead.',
+    title: 'Navigation that earns the screen',
+    text: "Custom-built turn-by-turn designed for the road, not a demo. Large maneuver icons, live speedometer, haptic feedback on approach. Every element placed for glanceability at 70 mph.",
     reverse: false,
   },
   {
     image: '/assets/03_settings.png',
-    title: 'Your rules, literally',
-    text: "Set your reroute threshold, pick your accent color, choose dark or light mode. Steddi adapts to you — not the other way around. The theme even follows the sun.",
+    title: 'Make it yours',
+    text: "Accent colors that flow through every screen. A theme engine that blends solar position, weather, and temperature in real-time. Reroute thresholds you actually control. This is your app.",
     reverse: true,
   },
   {
     image: '/assets/06_commute_detail.png',
-    title: 'Commutes that learn',
-    text: "Save your preferred routes, set time-based direction rules, and fine-tune when reroutes are worth your attention. Steddi knows your schedule better than you do.",
+    title: 'Routes with memory',
+    text: "Save preferred routes with fallback hierarchies. Set per-commute reroute thresholds, avoid tolls or highways, define no-go zones. Steddi remembers how you drive and respects it.",
     reverse: false,
   },
 ]
@@ -59,8 +59,6 @@ function ShowcaseRow({ image, title, text, reverse }) {
     return () => observer.disconnect()
   }, [])
 
-  // Text slides from opposite side of where it sits
-  // Phone slides from its own side
   const textAnim = reverse ? 'slide-right' : 'slide-left'
   const phoneAnim = reverse ? 'slide-left' : 'slide-right'
 

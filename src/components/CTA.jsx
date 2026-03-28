@@ -48,17 +48,17 @@ export default function CTA() {
   }
 
   return (
-    <section id="download" className="cta-section">
+    <section id="early-access" className="cta-section">
       <div ref={ref} className="fade-in">
-        <h2>Stop being rerouted<br />for no reason.</h2>
-        <p>Join the waitlist to be first when Steddi launches.</p>
+        <h2>Something different<br />is being built.</h2>
+        <p>Steddi is being crafted with intention. If that resonates, leave your email and you'll be the first to know when it's ready.</p>
 
         {submitted ? (
           <div className="waitlist-success">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" />
             </svg>
-            <span>You're on the list. Check your inbox.</span>
+            <span>You're in. I'll reach out when it's time.</span>
           </div>
         ) : (
           <form className="waitlist-form" onSubmit={handleSubmit}>
@@ -70,7 +70,7 @@ export default function CTA() {
               required
             />
             <button type="submit" className="btn-primary" disabled={submitting}>
-              {submitting ? 'Joining...' : 'Join the Waitlist'}
+              {submitting ? 'Joining...' : 'Get Early Access'}
             </button>
             {error && <div className="waitlist-error">{error}</div>}
           </form>

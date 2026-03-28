@@ -6,11 +6,11 @@ export default function Nav() {
         <span>Steddi</span>
       </a>
       <ul className="nav-links">
+        <li><a href="#craft">The Details</a></li>
         <li><a href="#features">Features</a></li>
-        <li><a href="#how">How It Works</a></li>
-        <li><a href="#download">Download</a></li>
+        <li><a href="#philosophy">Philosophy</a></li>
       </ul>
-      <a href="#download" className="nav-cta">Get Steddi</a>
+      <a href="#early-access" className="nav-cta">Early Access</a>
     </nav>
   )
 }

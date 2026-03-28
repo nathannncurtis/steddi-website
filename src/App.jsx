@@ -1,9 +1,10 @@
 import './index.css'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
+import Craft from './components/Craft'
 import Features from './components/Features'
 import Showcase from './components/Showcase'
-import HowItWorks from './components/HowItWorks'
+import Philosophy from './components/Philosophy'
 import Privacy from './components/Privacy'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
@@ -13,9 +14,10 @@ function App() {
     <>
       <Nav />
       <Hero />
+      <Craft />
       <Features />
       <Showcase />
-      <HowItWorks />
+      <Philosophy />
       <Privacy />
       <CTA />
       <Footer />

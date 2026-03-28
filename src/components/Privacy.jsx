@@ -10,12 +10,12 @@ const points = [
   {
     icon: Shield,
     title: 'No tracking. No ads. No accounts.',
-    text: "Steddi doesn't track you, profile you, or sell your data. There are no analytics, no advertising SDKs, and no sign-up required.",
+    text: "I don't track you, profile you, or sell your data. There are no analytics, no advertising SDKs, and no sign-up required.",
   },
   {
     icon: Wifi,
     title: 'Minimal network use',
-    text: 'Apple Maps handles directions and search. Route matching uses an open-source service with no user identity attached. That\'s it.',
+    text: "Apple Maps handles directions and search. Route matching uses an open-source service with no user identity attached. That's it.",
   },
   {
     icon: Trash2,
@@ -30,7 +30,7 @@ export default function Privacy() {
       <div className="privacy-inner">
         <div className="section-header">
           <FadeIn><h2>Private by design</h2></FadeIn>
-          <FadeIn delay={0.1}><p>Your driving data is yours. We don't want it.</p></FadeIn>
+          <FadeIn delay={0.1}><p>Your driving data is yours. I don't want it.</p></FadeIn>
         </div>
         <div className="privacy-grid">
           {points.map((p, i) => (
