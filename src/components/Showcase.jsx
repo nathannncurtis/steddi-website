@@ -1,81 +1,55 @@
 import { useEffect, useRef } from 'react'
 
-const sections = [
-  {
-    image: '/assets/04_nav_portrait.png',
-    title: 'Navigation that earns the screen',
-    text: "Custom-built turn-by-turn designed for the road, not a demo. Large maneuver icons, live speedometer, haptic feedback on approach. Every element placed for glanceability at 70 mph.",
-    reverse: false,
-  },
-  {
-    image: '/assets/03_settings.png',
-    title: 'Make it yours',
-    text: "Accent colors that flow through every screen. A theme engine that blends solar position, weather, and temperature in real-time. Reroute thresholds you actually control. This is your app.",
-    reverse: true,
-  },
-  {
-    image: '/assets/06_commute_detail.png',
-    title: 'Routes with memory',
-    text: "Save preferred routes with fallback hierarchies. Set per-commute reroute thresholds, avoid tolls or highways, define no-go zones. Steddi remembers how you drive and respects it.",
-    reverse: false,
-  },
-]
-
 export default function Showcase() {
   return (
     <section className="showcase">
       <div className="showcase-inner">
-        <div className="section-header">
-          <FadeIn><h2>See it in action</h2></FadeIn>
+        <div className="showcase-split">
+          <FadeIn>
+            <div className="showcase-image">
+              <img
+                src="/assets/mockup-3d.png"
+                alt="Steddi navigation app — home screen and turn-by-turn navigation"
+              />
+            </div>
+          </FadeIn>
+
+          <div className="showcase-content">
+            <FadeIn delay={0.1}>
+              <h2>See it in action</h2>
+            </FadeIn>
+            <FadeIn delay={0.15}>
+              <p className="showcase-subtitle">From your home screen to turn-by-turn. Every pixel designed for the road.</p>
+            </FadeIn>
+
+            <div className="showcase-cards">
+              <FadeIn delay={0.25}>
+                <div className="showcase-detail-card">
+                  <h3>Your commutes, one tap away</h3>
+                  <p>The home screen shows your saved commutes with live distance. Tap and go. No searching, no typing, no waiting.</p>
+                </div>
+              </FadeIn>
+              <FadeIn delay={0.35}>
+                <div className="showcase-detail-card">
+                  <h3>Navigation that earns the screen</h3>
+                  <p>Large maneuver icons, live speedometer, next turn preview. Every element placed for glanceability at 70 mph.</p>
+                </div>
+              </FadeIn>
+              <FadeIn delay={0.45}>
+                <div className="showcase-detail-card">
+                  <h3>Your rules, built in</h3>
+                  <p>Reroute thresholds, accent colors, no-go zones, toll avoidance. Steddi adapts to you, not the other way around.</p>
+                </div>
+              </FadeIn>
+            </div>
+          </div>
         </div>
-        {sections.map((s, i) => (
-          <ShowcaseRow key={i} {...s} />
-        ))}
       </div>
     </section>
   )
 }
 
-function ShowcaseRow({ image, title, text, reverse }) {
-  const textRef = useRef(null)
-  const phoneRef = useRef(null)
-
-  useEffect(() => {
-    const els = [textRef.current, phoneRef.current].filter(Boolean)
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible')
-            observer.unobserve(entry.target)
-          }
-        })
-      },
-      { threshold: 0.15 }
-    )
-
-    els.forEach(el => observer.observe(el))
-    return () => observer.disconnect()
-  }, [])
-
-  const textAnim = reverse ? 'slide-right' : 'slide-left'
-  const phoneAnim = reverse ? 'slide-left' : 'slide-right'
-
-  return (
-    <div className={`showcase-row ${reverse ? 'reverse' : ''}`}>
-      <div ref={textRef} className={`showcase-text ${textAnim}`}>
-        <h3>{title}</h3>
-        <p>{text}</p>
-      </div>
-      <div ref={phoneRef} className={`showcase-phone ${phoneAnim}`}>
-        <img src={image} alt={title} />
-      </div>
-    </div>
-  )
-}
-
-function FadeIn({ children }) {
+function FadeIn({ children, delay = 0 }) {
   const ref = useRef(null)
 
   useEffect(() => {
@@ -83,13 +57,16 @@ function FadeIn({ children }) {
     if (!el) return
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) { el.classList.add('visible'); observer.unobserve(el) }
+        if (entry.isIntersecting) {
+          setTimeout(() => el.classList.add('visible'), delay * 1000)
+          observer.unobserve(el)
+        }
       },
       { threshold: 0.1 }
     )
     observer.observe(el)
     return () => observer.disconnect()
-  }, [])
+  }, [delay])
 
   return <div ref={ref} className="fade-in">{children}</div>
 }

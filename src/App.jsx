@@ -2,11 +2,11 @@ import './index.css'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Craft from './components/Craft'
-import Features from './components/Features'
-import InteractiveMap from './components/InteractiveMap'
+import FeaturesGallery from './components/FeaturesGallery'
 import Showcase from './components/Showcase'
 import Philosophy from './components/Philosophy'
 import Privacy from './components/Privacy'
+import BuildingInPublic from './components/BuildingInPublic'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
@@ -15,12 +15,12 @@ function App() {
     <>
       <Nav />
       <Hero />
-      <Craft />
-      <Features />
-      <InteractiveMap />
       <Showcase />
+      <Craft />
+      <FeaturesGallery />
       <Philosophy />
       <Privacy />
+      <BuildingInPublic />
       <CTA />
       <Footer />
     </>

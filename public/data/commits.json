@@ -1,0 +1,198 @@
+[
+  {
+    "date": "2026-03-29",
+    "message": "filter internal tool mentions from website activity sync"
+  },
+  {
+    "date": "2026-03-29",
+    "message": "fix: use correct GitHub email in sync workflow"
+  },
+  {
+    "date": "2026-03-29",
+    "message": "fix: sync workflow targets master branch on website repo"
+  },
+  {
+    "date": "2026-03-29",
+    "message": "add GitHub Action to sync TODO and commit activity to website repo"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "fix carplay map: follow user location on connect, traffic enabled, proper camera on init"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "carplay overhaul: raw numeric values for ETA/distance, maneuvers only rebuild on instruction change, no string parsing"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "fix carplay: set map view controller as window rootViewController on connect per Apple docs"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "update TODO with all completed work from this session"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "fix: compass shows device magnetometer heading (direction phone faces), not GPS course"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "fix: compass shows cardinal direction (N/NE/E/SE/S/SW/W/NW) based on heading, no rotation"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "fix: use saved travel time from route planning for ETA instead of 30mph assumption"
+  },
+  {
+    "date": "2026-03-28",
+    "message": "save turn-by-turn steps at route planning time, use them directly during navigation instead of generating from polyline"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "debug: add trace logging throughout saved route navigation flow"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "rewrite NavigationEngine from scratch: unified NavStep model, MKRoute is just an adapter, no dual paths"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: off-route grace period, wider threshold, custom routes don't trigger Apple reroute"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "custom routing: saved routes now use own turn-by-turn logic, fully independent from Apple Maps"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: free-look mode during nav \u2014 pan/pinch pauses auto-follow, recenter button to resume"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: remove duplicate didDisconnect overload and nil coalescing warning in CarPlay"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: saved route polyline now used for map rendering and position tracking, not just route selection"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: remove duplicate puck annotation, use single MKUserLocation puck"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "carplay: swap CPListTemplate to CPMapTemplate with full map view, maneuver display, zoom controls"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: saved routes now used for navigation \u2014 picks closest Apple Maps route to saved polyline"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "update TODO: route preview, haptics, Siri, route preferences all done"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add route preview: full-screen map with ETA, distance, alternates before nav starts"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add Siri Shortcuts: 'Start my commute' and 'Check commute ETA' via App Intents"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add haptic feedback system: 5 levels, per-event intensity, wired into nav engine and UI"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add route preferences: toll and highway avoidance (global + per-commute)"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "setup: add App Group entitlement for extension data sharing"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "update TODO: all on-device testing bugs fixed"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: remove weak self from struct closures (HomeView is a value type)"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: off-route detection and smart rerouting that avoids U-turns"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: stop background location tracking when not navigating"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: smooth puck movement and rotation with 0.8s easeOut animation"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: snap puck to route polyline so it stays centered on the route line"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: compass uses route-based bearing for stable cardinal direction"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: speedometer color changes based on estimated speed limit from road type"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: enable traffic conditions on map"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "re-enable CarPlay navigation entitlement (approved by Apple, key: carplay-maps)"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add on-device testing bugs: compass, route line, puck jitter, speedometer, off-route handling, traffic"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "reframe implementation plan as living constitution, not static bible"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add design philosophy: routing config belongs in context, not main settings"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "make Now Playing mini-bar toggleable in settings"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add audio ducking policy: duck media for all alerts, never pause, independently configurable"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add comprehensive implementation plan and design bible"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add tunnel detection to dynamic theming"
+  },
+  {
+    "date": "2026-03-26",
+    "message": "comprehensive TODO update with all design decisions from planning session"
+  },
+  {
+    "date": "2026-03-26",
+    "message": "add passenger mode and accessibility view to TODO"
+  },
+  {
+    "date": "2026-03-26",
+    "message": "add speed traps, commute analytics, Siri, music, road memory, sunset theme, emergency mode, route preferences"
+  },
+  {
+    "date": "2026-03-26",
+    "message": "add no-go zones v2: road segments, polygons, named roads, time-based"
+  }
+]
