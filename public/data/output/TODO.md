@@ -184,4 +184,3 @@
 - ETA uses saved travel time from planning, not 30mph assumption
 - Compass shows device magnetometer heading (direction phone faces)
 - Free-look mode during nav (pan/pinch pauses camera, recenter button to resume)
-- Removed .claude/skills from repo

@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-03-29",
+    "message": "sync workflow: increase to 50 commits, filter internal tool mentions"
+  },
+  {
+    "date": "2026-03-29",
+    "message": "filter internal tool mentions from website activity sync"
+  },
+  {
+    "date": "2026-03-29",
     "message": "fix: use correct GitHub email in sync workflow"
   },
   {
@@ -26,10 +34,6 @@
   {
     "date": "2026-03-28",
     "message": "update TODO with all completed work from this session"
-  },
-  {
-    "date": "2026-03-28",
-    "message": "remove .claude/skills from repo, add .claude to gitignore"
   },
   {
     "date": "2026-03-28",
@@ -78,5 +82,117 @@
   {
     "date": "2026-03-27",
     "message": "fix: remove duplicate puck annotation, use single MKUserLocation puck"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "carplay: swap CPListTemplate to CPMapTemplate with full map view, maneuver display, zoom controls"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: saved routes now used for navigation \u2014 picks closest Apple Maps route to saved polyline"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "update TODO: route preview, haptics, Siri, route preferences all done"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add route preview: full-screen map with ETA, distance, alternates before nav starts"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add Siri Shortcuts: 'Start my commute' and 'Check commute ETA' via App Intents"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add haptic feedback system: 5 levels, per-event intensity, wired into nav engine and UI"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add route preferences: toll and highway avoidance (global + per-commute)"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "setup: add App Group entitlement for extension data sharing"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "update TODO: all on-device testing bugs fixed"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: remove weak self from struct closures (HomeView is a value type)"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: off-route detection and smart rerouting that avoids U-turns"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: stop background location tracking when not navigating"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: smooth puck movement and rotation with 0.8s easeOut animation"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: snap puck to route polyline so it stays centered on the route line"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: compass uses route-based bearing for stable cardinal direction"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: speedometer color changes based on estimated speed limit from road type"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "fix: enable traffic conditions on map"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "re-enable CarPlay navigation entitlement (approved by Apple, key: carplay-maps)"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add on-device testing bugs: compass, route line, puck jitter, speedometer, off-route handling, traffic"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "reframe implementation plan as living constitution, not static bible"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add design philosophy: routing config belongs in context, not main settings"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "make Now Playing mini-bar toggleable in settings"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add audio ducking policy: duck media for all alerts, never pause, independently configurable"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add comprehensive implementation plan and design bible"
+  },
+  {
+    "date": "2026-03-27",
+    "message": "add tunnel detection to dynamic theming"
+  },
+  {
+    "date": "2026-03-26",
+    "message": "comprehensive TODO update with all design decisions from planning session"
+  },
+  {
+    "date": "2026-03-26",
+    "message": "add passenger mode and accessibility view to TODO"
+  },
+  {
+    "date": "2026-03-26",
+    "message": "add speed traps, commute analytics, Siri, music, road memory, sunset theme, emergency mode, route preferences"
   }
 ]
