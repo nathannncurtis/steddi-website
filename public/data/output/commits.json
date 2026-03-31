@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-03-30",
+    "message": "Commute Analytics view with Charts, fix extension entitlements, home screen widget"
+  },
+  {
+    "date": "2026-03-30",
     "message": "Home screen widget: commute ETA, small + medium sizes, App Group shared data"
   },
   {
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "make Now Playing mini-bar toggleable in settings"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add audio ducking policy: duck media for all alerts, never pause, independently configurable"
   }
 ]
