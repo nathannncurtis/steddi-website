@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-03-30",
+    "message": "add per-commute route preview skip option"
+  },
+  {
+    "date": "2026-03-30",
     "message": "enable App Group entitlement for extension data sharing"
   },
   {
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-26",
     "message": "comprehensive TODO update with all design decisions from planning session"
-  },
-  {
-    "date": "2026-03-26",
-    "message": "add passenger mode and accessibility view to TODO"
   }
 ]
