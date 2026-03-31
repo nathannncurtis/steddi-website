@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-03-30",
+    "message": "Live Activities: Dynamic Island, Lock Screen, activity lifecycle, orphan cleanup"
+  },
+  {
+    "date": "2026-03-30",
     "message": "CarPlay: add dashboard widget, Now Playing integration, media steering wheel controls"
   },
   {
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "add comprehensive implementation plan and design bible"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add tunnel detection to dynamic theming"
   }
 ]
