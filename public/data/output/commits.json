@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-03-30",
+    "message": "fix CarPlay: CPMapTemplate as root, completion handlers, dashboard scene routing"
+  },
+  {
+    "date": "2026-03-30",
     "message": "fix extension Info.plists with proper NSExtension dictionaries for simulator install"
   },
   {
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "fix: speedometer color changes based on estimated speed limit from road type"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: enable traffic conditions on map"
   }
 ]
