@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-03-30",
+    "message": "Passenger mode + Accessibility mode: display toggles, text/icon scaling, high contrast"
+  },
+  {
+    "date": "2026-03-30",
     "message": "Emergency mode: share location, nearby services, emergency contact, roadside assistance"
   },
   {
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "reframe implementation plan as living constitution, not static bible"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add design philosophy: routing config belongs in context, not main settings"
   }
 ]
