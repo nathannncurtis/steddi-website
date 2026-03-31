@@ -34,9 +34,18 @@ export default function Hero() {
   const [routePulse, setRoutePulse] = useState(0.95)
   const mapRef = useRef(null)
 
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768
+
   useEffect(() => {
     if (globalAnimStarted) return
     globalAnimStarted = true
+
+    // Skip animation on mobile — show content immediately
+    if (isMobile) {
+      setMapDimmed(true)
+      setContentVisible(true)
+      return
+    }
 
     // Phase 1 (0.5s): Chaos draws in staggered
     setTimeout(() => {
