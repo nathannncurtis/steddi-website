@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-03-30",
+    "message": "update TODO with all features built today"
+  },
+  {
+    "date": "2026-03-30",
     "message": "Fuzzy route parser: natural language route input via string parsing + geocoding"
   },
   {
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "re-enable CarPlay navigation entitlement (approved by Apple, key: carplay-maps)"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add on-device testing bugs: compass, route line, puck jitter, speedometer, off-route handling, traffic"
   }
 ]
