@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-03-30",
+    "message": "Emergency mode: share location, nearby services, emergency contact, roadside assistance"
+  },
+  {
+    "date": "2026-03-30",
     "message": "Commute Analytics view with Charts, fix extension entitlements, home screen widget"
   },
   {
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "add design philosophy: routing config belongs in context, not main settings"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "make Now Playing mini-bar toggleable in settings"
   }
 ]
