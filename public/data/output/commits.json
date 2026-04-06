@@ -1,5 +1,9 @@
 [
   {
+    "date": "2026-04-05",
+    "message": "Add all-rights-reserved license"
+  },
+  {
     "date": "2026-03-30",
     "message": "full codebase audit: fix all force unwraps, division-by-zero, and crash risks"
   },
@@ -190,9 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "fix: snap puck to route polyline so it stays centered on the route line"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: compass uses route-based bearing for stable cardinal direction"
   }
 ]
