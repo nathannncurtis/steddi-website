@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-06-10",
+    "message": "nav overlay applies display modes: text/icon/control scaling, high contrast surfaces"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "instruction simplifier: bare maneuvers for accessibility mode, display-time only"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "end live activity on app terminate and scene disconnect"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "home view passes destination name into nav state observation"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "widget session writes: commute and destination names, timeline reloads on nav transitions"
+  },
+  {
+    "date": "2026-06-10",
     "message": "speedometer: amber over-limit band, red badge tint, lower red threshold to 8"
   },
   {
@@ -178,25 +198,5 @@
   {
     "date": "2026-06-09",
     "message": "add hapticservice intensity tests"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "hapticservice: per-event intensity storage with clamped read/write api"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "assert voice options resolve on a non-empty catalog"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "voice picker: probe voice catalog off-main, treat fallback-only catalog as system default"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "serialize VoiceOption tests: concurrent TTS voice lookups can segfault in Apple's TextToSpeech when the sim voice db is broken"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "add voice option resolution tests"
   }
 ]
