@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-06-10",
+    "message": "let eta intent read the legacy store before the app's first post-update launch"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "fix legacy store detection to match swiftdata's group-container default location"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "check commute eta intent: live eta from the shared store"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "add schedule-based direction resolution for callers without a location fix"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "move swiftdata store to app group container with legacy store migration"
+  },
+  {
+    "date": "2026-06-10",
     "message": "osm speed limit tests: stale prefetch cannot clobber, status-code mirror rotation, cancellation bail, corrupt cache fallback"
   },
   {
@@ -178,25 +198,5 @@
   {
     "date": "2026-06-09",
     "message": "no-go editor and post-arrival maps: shared config, keep muted"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "fix carplay traffic: shared config"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "route planner map: shared config, keep muted"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "fix route preview traffic: shared config"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "fix home map traffic: shared config, drop dead buildings line"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "add shared map config factory: muted emphasis silently disables traffic"
   }
 ]
