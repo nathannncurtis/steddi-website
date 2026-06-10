@@ -1,6 +1,50 @@
 [
   {
     "date": "2026-06-10",
+    "message": "osm speed limit tests: stale prefetch cannot clobber, status-code mirror rotation, cancellation bail, corrupt cache fallback"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "osm speed limit lookup: per-challenger hysteresis streak, exclude antimeridian-degenerate segments from the grid"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "osm speed limit prefetch: disk io, json coding, and index builds off the main actor; drop duplicate way geometry after indexing"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "osm speed limit fetch: exact steddi.io user agent, asserted on every overpass request"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "osm speed limit fetch: bail on cancellation and 4xx instead of rotating mirrors, set identifying user-agent"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "osm speed limit service: prefetch generation guard so stale fetches cannot clobber the active route"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "osm speed limit tests: equidistant ties, 50-degree heading boundary, cell-boundary straddling, maxspeed parsing matrix gaps, estimateSpeedLimit regression phrases"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "fix speed limit heuristic: word-boundary road suffixes, road class before ramp tier"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "osm speed limit service tests: parsing matrix, cache ttl, spatial lookup, hysteresis"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "osm speed limit service: spatial hash index, heading filter, lookup hysteresis"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "osm speed limit service: overpass prefetch, maxspeed parsing, disk cache"
+  },
+  {
+    "date": "2026-06-10",
     "message": "stress tests: course gates, outbound leg disambiguation, backward window and rescan, zero-speed hold"
   },
   {
@@ -154,49 +198,5 @@
   {
     "date": "2026-06-09",
     "message": "add shared map config factory: muted emphasis silently disables traffic"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "gitignore nested xcworkspace user state, untrack userstate blob"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "restructure todo: real-drive bugs to priority 1, finish-whats-marked-done as priority 2"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "setup doc: drop mapbox token setup, document xcodegen, signing, test commands"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "rewrite architecture doc: real services, mapkit/osrm integration points, nav data flow"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "update readme: mapkit + osrm stack, token-free xcodegen build"
-  },
-  {
-    "date": "2026-04-05",
-    "message": "Add all-rights-reserved license"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "full codebase audit: fix all force unwraps, division-by-zero, and crash risks"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "fix CarPlay: CPMapTemplate as root, completion handlers, dashboard scene routing"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "fix extension Info.plists with proper NSExtension dictionaries for simulator install"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "update TODO with all features built today"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "Fuzzy route parser: natural language route input via string parsing + geocoding"
   }
 ]
