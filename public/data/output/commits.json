@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-06-10",
+    "message": "eta intent: adopt renamed direct eta fetch"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "lazy migration: recompute inflated legacy planned durations via osrm"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "engine: saved eta sanity floor against direct estimate, token-guarded"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "route planner: plot points as osrm vias, trimmed chained-leg fallback"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "directions: spike-clean trimmed legs, sampled via points for osrm requests"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "geometry: collapse out-and-back spikes from legacy stitched polylines"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "route: drop legacy mid-route arrival steps when decoding saved steps"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "directions service: osrm via-route with pass-through plot points, chained-leg spur trim fallback"
+  },
+  {
+    "date": "2026-06-10",
     "message": "nav overlay applies display modes: text/icon/control scaling, high contrast surfaces"
   },
   {
@@ -166,37 +198,5 @@
   {
     "date": "2026-06-09",
     "message": "replace single-point gpx with victoria drive waypoint files for simctl"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "wire steddiNavigateToLocation notification to navigateTo in home view"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "todo: strike completed advanced haptics intensity ui item"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "haptic tests: clean up defaults domains after each test, pin dynamic profile values"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "hapticservice: respect off level in preview"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "advanced haptics: slider voiceover labels, off state at zero, accent re-render"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "settings: link to fine-tune haptics when level is advanced"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "add advanced haptics fine-tuning view"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "add hapticservice intensity tests"
   }
 ]
