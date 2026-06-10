@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-06-10",
+    "message": "assert voice options resolve on a non-empty catalog"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "voice picker: probe voice catalog off-main, treat fallback-only catalog as system default"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "serialize VoiceOption tests: concurrent TTS voice lookups can segfault in Apple's TextToSpeech when the sim voice db is broken"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "add voice option resolution tests"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "voice picker: show system default state when no voices installed"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "fix voice resolve crash when os voice catalog is empty"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "no-go editor and post-arrival maps: shared config, keep muted"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "fix carplay traffic: shared config"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "route planner map: shared config, keep muted"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "fix route preview traffic: shared config"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "fix home map traffic: shared config, drop dead buildings line"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "add shared map config factory: muted emphasis silently disables traffic"
+  },
+  {
     "date": "2026-06-09",
     "message": "gitignore nested xcworkspace user state, untrack userstate blob"
   },
@@ -146,53 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "fix: free-look mode during nav \u2014 pan/pinch pauses auto-follow, recenter button to resume"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: remove duplicate didDisconnect overload and nil coalescing warning in CarPlay"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: saved route polyline now used for map rendering and position tracking, not just route selection"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: remove duplicate puck annotation, use single MKUserLocation puck"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "carplay: swap CPListTemplate to CPMapTemplate with full map view, maneuver display, zoom controls"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: saved routes now used for navigation \u2014 picks closest Apple Maps route to saved polyline"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "update TODO: route preview, haptics, Siri, route preferences all done"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add route preview: full-screen map with ETA, distance, alternates before nav starts"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add Siri Shortcuts: 'Start my commute' and 'Check commute ETA' via App Intents"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add haptic feedback system: 5 levels, per-event intensity, wired into nav engine and UI"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "add route preferences: toll and highway avoidance (global + per-commute)"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "setup: add App Group entitlement for extension data sharing"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "update TODO: all on-device testing bugs fixed"
   }
 ]
