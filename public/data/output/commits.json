@@ -1,6 +1,18 @@
 [
   {
     "date": "2026-06-10",
+    "message": "speedometer: amber over-limit band, red badge tint, lower red threshold to 8"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "wire osm speed limits into nav start: provider injection and corridor prefetch"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "engine: injected position-based speed limit provider, refreshed per fix"
+  },
+  {
+    "date": "2026-06-10",
     "message": "let eta intent read the legacy store before the app's first post-update launch"
   },
   {
@@ -186,17 +198,5 @@
   {
     "date": "2026-06-09",
     "message": "add voice option resolution tests"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "voice picker: show system default state when no voices installed"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "fix voice resolve crash when os voice catalog is empty"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "no-go editor and post-arrival maps: shared config, keep muted"
   }
 ]
