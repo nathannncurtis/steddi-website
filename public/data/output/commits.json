@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-09",
+    "message": "gitignore nested xcworkspace user state, untrack userstate blob"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "restructure todo: real-drive bugs to priority 1, finish-whats-marked-done as priority 2"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "setup doc: drop mapbox token setup, document xcodegen, signing, test commands"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "rewrite architecture doc: real services, mapkit/osrm integration points, nav data flow"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "update readme: mapkit + osrm stack, token-free xcodegen build"
+  },
+  {
     "date": "2026-04-05",
     "message": "Add all-rights-reserved license"
   },
@@ -174,25 +194,5 @@
   {
     "date": "2026-03-27",
     "message": "update TODO: all on-device testing bugs fixed"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: remove weak self from struct closures (HomeView is a value type)"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: off-route detection and smart rerouting that avoids U-turns"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: stop background location tracking when not navigating"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: smooth puck movement and rotation with 0.8s easeOut animation"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: snap puck to route polyline so it stays centered on the route line"
   }
 ]
