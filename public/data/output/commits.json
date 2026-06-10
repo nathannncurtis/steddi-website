@@ -1,6 +1,54 @@
 [
   {
     "date": "2026-06-10",
+    "message": "stress tests: course gates, outbound leg disambiguation, backward window and rescan, zero-speed hold"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "resync map polyline from engine after auto-reroute"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "interpolator math and pose copy tests"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "display-link pose interpolator drives puck and camera on one clock"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "custom nav puck rides the snapped route, system gps dot hidden during nav"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "carplay consumes the snapped pose, drop its own animation clock and bearing math"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "dedupe stale gps fixes in the nav location feed"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "nav compass reads engine bearing with sector hysteresis, drop dead triangle"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "heading hygiene: accuracy gate, orientation-aware frame, calibration prompt"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "projection, bearing continuity, and pose publishing tests"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "engine bearing priority: route segment, gps course, hold \u2014 with circular smoothing"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "unified route projection: navpose, sliding-window projector, shared geometry"
+  },
+  {
+    "date": "2026-06-10",
     "message": "fix victoria waypoints: trace real osrm route geometry from home seed"
   },
   {
@@ -150,53 +198,5 @@
   {
     "date": "2026-03-30",
     "message": "Fuzzy route parser: natural language route input via string parsing + geocoding"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "Passenger mode + Accessibility mode: display toggles, text/icon scaling, high contrast"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "Emergency mode: share location, nearby services, emergency contact, roadside assistance"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "Commute Analytics view with Charts, fix extension entitlements, home screen widget"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "Home screen widget: commute ETA, small + medium sizes, App Group shared data"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "Live Activities: Dynamic Island, Lock Screen, activity lifecycle, orphan cleanup"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "CarPlay: add dashboard widget, Now Playing integration, media steering wheel controls"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "add per-commute route preview skip option"
-  },
-  {
-    "date": "2026-03-30",
-    "message": "enable App Group entitlement for extension data sharing"
-  },
-  {
-    "date": "2026-03-29",
-    "message": "sync workflow: increase to 50 commits, filter internal tool mentions"
-  },
-  {
-    "date": "2026-03-29",
-    "message": "filter internal tool mentions from website activity sync"
-  },
-  {
-    "date": "2026-03-29",
-    "message": "fix: use correct GitHub email in sync workflow"
-  },
-  {
-    "date": "2026-03-29",
-    "message": "fix: sync workflow targets master branch on website repo"
   }
 ]
