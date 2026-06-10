@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-06-10",
+    "message": "todo: strike completed advanced haptics intensity ui item"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "haptic tests: clean up defaults domains after each test, pin dynamic profile values"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "hapticservice: respect off level in preview"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "advanced haptics: slider voiceover labels, off state at zero, accent re-render"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "settings: link to fine-tune haptics when level is advanced"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "add advanced haptics fine-tuning view"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "add hapticservice intensity tests"
+  },
+  {
+    "date": "2026-06-09",
+    "message": "hapticservice: per-event intensity storage with clamped read/write api"
+  },
+  {
+    "date": "2026-06-10",
     "message": "assert voice options resolve on a non-empty catalog"
   },
   {
@@ -162,37 +194,5 @@
   {
     "date": "2026-03-28",
     "message": "fix: compass shows device magnetometer heading (direction phone faces), not GPS course"
-  },
-  {
-    "date": "2026-03-28",
-    "message": "fix: compass shows cardinal direction (N/NE/E/SE/S/SW/W/NW) based on heading, no rotation"
-  },
-  {
-    "date": "2026-03-28",
-    "message": "fix: use saved travel time from route planning for ETA instead of 30mph assumption"
-  },
-  {
-    "date": "2026-03-28",
-    "message": "save turn-by-turn steps at route planning time, use them directly during navigation instead of generating from polyline"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "debug: add trace logging throughout saved route navigation flow"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "rewrite NavigationEngine from scratch: unified NavStep model, MKRoute is just an adapter, no dual paths"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: off-route grace period, wider threshold, custom routes don't trigger Apple reroute"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "custom routing: saved routes now use own turn-by-turn logic, fully independent from Apple Maps"
-  },
-  {
-    "date": "2026-03-27",
-    "message": "fix: free-look mode during nav \u2014 pan/pinch pauses auto-follow, recenter button to resume"
   }
 ]
