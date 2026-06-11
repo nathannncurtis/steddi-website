@@ -1,6 +1,18 @@
 [
   {
     "date": "2026-06-10",
+    "message": "projector: keep along-route hint across window reset, regression for out-and-back re-anchor"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "phone map: gate display link on scene activation, not app background"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "carplay map: display-link interpolated camera, route resync on auto-reroute"
+  },
+  {
+    "date": "2026-06-10",
     "message": "todo: real-drive bugs fixed pending road verification, strike finished p2 items"
   },
   {
@@ -186,17 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "projection, bearing continuity, and pose publishing tests"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "engine bearing priority: route segment, gps course, hold \u2014 with circular smoothing"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "unified route projection: navpose, sliding-window projector, shared geometry"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "fix victoria waypoints: trace real osrm route geometry from home seed"
   }
 ]
