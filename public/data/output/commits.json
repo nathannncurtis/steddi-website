@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-06-10",
+    "message": "route recovery tests: macro legs, forward invariant, scoring matrix, give-up rules"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "off-route recovery: forward rejoin coordinator with splice onto saved route"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "route recovery engine: macro legs, forward rejoin candidates, reversal-aware scoring"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "engine: off-route event payload with course and along-distance, once-per-episode latch"
+  },
+  {
+    "date": "2026-06-10",
     "message": "eta intent: adopt renamed direct eta fetch"
   },
   {
@@ -182,21 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "fix drive script: pre-approve steddi scheme to bypass openurl confirmation, terminate stale app before launch"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "add off-route detection test replaying victoria deviation drive"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "document simulated drive workflow in setup guide"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "add simulated drive script: build, install, waypoint playback, screenshots"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "replace single-point gpx with victoria drive waypoint files for simctl"
   }
 ]
