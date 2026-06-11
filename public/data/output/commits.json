@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-06-10",
+    "message": "todo: real-drive bugs fixed pending road verification, strike finished p2 items"
+  },
+  {
+    "date": "2026-06-10",
     "message": "route recovery tests: macro legs, forward invariant, scoring matrix, give-up rules"
   },
   {
@@ -194,9 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "fix victoria waypoints: trace real osrm route geometry from home seed"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "fix drive script: pre-approve steddi scheme to bypass openurl confirmation, terminate stale app before launch"
   }
 ]
