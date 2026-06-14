@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-06-14",
+    "message": "test router edge cases: heading snap, closed loops, malformed tags, antimeridian serialization (phase 2)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "keep expired corridor cache for stale-fallback degradation (phase 2)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "test shared tag parsing matrix and overpass loader (phase 2)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add overpass road-graph loader with corridor disk cache (phase 2)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "test road-graph builder and binary serializer (phase 1)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add road-graph data model, builder, and binary serializer (phase 1)"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "promote OSM tag parsing into shared OSMTagParsing namespace"
+  },
+  {
     "date": "2026-06-13",
     "message": "drop stale todo in emergency callContact \u2014 missing-contact prompt already wired through presentContactSetup"
   },
@@ -170,33 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "add RoadConditionReconfirmSheet for 14-day reconfirm prompts"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add road-condition report step to post-arrival sheet"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "configure RoadConditionService and run decay sweep at launch"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "implement RoadConditionService with crud, spatial grid, and decay"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add RoadCondition @Model and kind/status enums"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "surface alert when place review link-out fails to open"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add adversarial poi tests \u2014 url encoding edge cases, category round-trips, migration coverage"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "fix google maps url test to expect literal apostrophe"
   }
 ]
