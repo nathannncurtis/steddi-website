@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-14",
+    "message": "make graph snap deterministic: break distance ties by lower edge index"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "test cost model: ups scenario, protected/unprotected left, prefs, zones, admissibility"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fix binary heap tests: extract mutating heap calls out of expect macro"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add default cost model: turn costs, protected-left inference, prefs, zone soft/hard"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "extend graph edges with oncoming-lane count and dedicated-left flag for turn costs"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "test BinaryHeap and AStarSearch: differential vs dijkstra, admissibility, snap, mid-edge (phase 3)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add BinaryHeap and AStarSearch with snap-to-graph overlay (phase 3)"
+  },
+  {
+    "date": "2026-06-14",
     "message": "test router edge cases: heading snap, closed loops, malformed tags, antimeridian serialization (phase 2)"
   },
   {
@@ -170,33 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "implement routedrawrenderer for route polyline draw-on animation"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add transitionkit module with unified animation timing and reduce-motion gate"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add adversarial road-condition edge tests \u2014 exclusive proximity threshold, raw-value degradation, exact-window reconfirm, clock skew, and grid status filtering"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test road condition decay, drive-past detection, and spatial lookup"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "present reconfirm prompt for stale conditions after arrival"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "display route-scoped road condition badges with clustering"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "fire haptic and voice heads-up when approaching road conditions"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add RoadConditionReconfirmSheet for 14-day reconfirm prompts"
   }
 ]
