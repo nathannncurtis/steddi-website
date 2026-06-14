@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-06-13",
+    "message": "add adversarial ducking edge cases: alert never pauses, voice-only spoken interrupt, toggle matrix, lifecycle re-entry"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add tests for ducking decision matrix, session options, and now-playing seek commands"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "register now-playing remote commands at app launch"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "integrate audioduckingservice into voiceguidanceservice to activate/deactivate ducking per toggle"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "integrate nowplayingminibar into steddinavoverlay portrait layout with conditional rendering"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add music & audio settings toggles for mini-bar, voice ducking, and alert ducking"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "create nowplayingminibar component with responsive layout for portrait/landscape nav"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "enhance nowplayingservice with observable pattern, playback state binding, and remote command handlers"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "create audioduckingservice with independent voice/alert session management and toggle support"
+  },
+  {
+    "date": "2026-06-13",
     "message": "assert in-bounds safe resolution for orphaned current stop id"
   },
   {
@@ -162,41 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "carplay map: display-link interpolated camera, route resync on auto-reroute"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "todo: real-drive bugs fixed pending road verification, strike finished p2 items"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "route recovery tests: macro legs, forward invariant, scoring matrix, give-up rules"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "off-route recovery: forward rejoin coordinator with splice onto saved route"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "route recovery engine: macro legs, forward rejoin candidates, reversal-aware scoring"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "engine: off-route event payload with course and along-distance, once-per-episode latch"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "eta intent: adopt renamed direct eta fetch"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "lazy migration: recompute inflated legacy planned durations via osrm"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "engine: saved eta sanity floor against direct estimate, token-guarded"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "route planner: plot points as osrm vias, trimmed chained-leg fallback"
   }
 ]
