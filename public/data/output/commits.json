@@ -1,6 +1,66 @@
 [
   {
     "date": "2026-06-13",
+    "message": "assert in-bounds safe resolution for orphaned current stop id"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "confirm and end active session before swipe-deleting in-progress trip"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "confirm and end active session before deleting in-progress trip"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add helper to end active trip session on deletion"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test trip position resolution against external stop mutation"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "resolve trip current stop by id to survive external stop mutation"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test trip progression: position resolution, leg advance, delete and reorder invariants"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "thread active trip through nav state for carplay and live activity leg context"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "extend nav overlay and live activity with trip leg context"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add triparrivalcard and triparrivalpromptsheet for leg transitions"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "extend homeview with trip nav orchestration and resume banner"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add triplistview and tripeditorview for trip management"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add tripplannerview for map-based trip creation"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add tripcardview and trips tab in homeview bottom sheet"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add trip and tripstop models with tripprogression state machine"
+  },
+  {
+    "date": "2026-06-13",
     "message": "fix inverted sign in goldenHourFactor negative branch"
   },
   {
@@ -138,65 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "route planner: plot points as osrm vias, trimmed chained-leg fallback"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "directions: spike-clean trimmed legs, sampled via points for osrm requests"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "geometry: collapse out-and-back spikes from legacy stitched polylines"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "route: drop legacy mid-route arrival steps when decoding saved steps"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "directions service: osrm via-route with pass-through plot points, chained-leg spur trim fallback"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "nav overlay applies display modes: text/icon/control scaling, high contrast surfaces"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "instruction simplifier: bare maneuvers for accessibility mode, display-time only"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "end live activity on app terminate and scene disconnect"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "home view passes destination name into nav state observation"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "widget session writes: commute and destination names, timeline reloads on nav transitions"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "speedometer: amber over-limit band, red badge tint, lower red threshold to 8"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "wire osm speed limits into nav start: provider injection and corridor prefetch"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "engine: injected position-based speed limit provider, refreshed per fix"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "let eta intent read the legacy store before the app's first post-update launch"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "fix legacy store detection to match swiftdata's group-container default location"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "check commute eta intent: live eta from the shared store"
   }
 ]
