@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-13",
+    "message": "drop stale todo in emergency callContact \u2014 missing-contact prompt already wired through presentContactSetup"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "make rerouting route-preference scope explicit and store in variable to match preview path"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test route-preference resolution edge cases \u2014 explicit commute opt-out beats global avoidance, highway override, both-globals ordering, apply(to:) mapping"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "polish emergency mode: hierarchy, accessibility, haptics, safe contact-setup draft and missing-contact prompt"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "polish route preview toll/highway badges and add active-avoidance indicators"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "surface active route-preference badge in nav overlay (portrait + landscape)"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add testable route-preference active detection (isActive, activeLabels, injectable resolve)"
+  },
+  {
+    "date": "2026-06-13",
     "message": "test camera edge cases \u2014 non-node elements, exclusive proximity threshold, heading-cone boundary, decay-reset survival, same-cell grid lookup"
   },
   {
@@ -170,33 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "fix google maps url test to expect literal apostrophe"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add tests for review urls, category lookup, and pin migration"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add review link-outs and category chip to places tab cards"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add add-place menu to places tab with search and current-location flows"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "show searchresultactioncard on result tap and route save through category picker"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add searchresultactioncard component with navigate/save/cancel actions"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "extract placeiconpickerview and add category selector to addlocationsheet"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add category field to pinnedlocation with icon-inference migration"
   }
 ]
