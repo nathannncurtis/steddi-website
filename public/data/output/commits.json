@@ -1,6 +1,50 @@
 [
   {
     "date": "2026-06-13",
+    "message": "surface alert when place review link-out fails to open"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add adversarial poi tests \u2014 url encoding edge cases, category round-trips, migration coverage"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "fix google maps url test to expect literal apostrophe"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add tests for review urls, category lookup, and pin migration"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add review link-outs and category chip to places tab cards"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add add-place menu to places tab with search and current-location flows"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "show searchresultactioncard on result tap and route save through category picker"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add searchresultactioncard component with navigate/save/cancel actions"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "extract placeiconpickerview and add category selector to addlocationsheet"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add category field to pinnedlocation with icon-inference migration"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add placecategory enum and reviewurls utility"
+  },
+  {
+    "date": "2026-06-13",
     "message": "disambiguate kind(for:) to weatherkit's condition type, not the commute one"
   },
   {
@@ -154,49 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "add helper to end active trip session on deletion"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test trip position resolution against external stop mutation"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "resolve trip current stop by id to survive external stop mutation"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test trip progression: position resolution, leg advance, delete and reorder invariants"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "thread active trip through nav state for carplay and live activity leg context"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "extend nav overlay and live activity with trip leg context"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add triparrivalcard and triparrivalpromptsheet for leg transitions"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "extend homeview with trip nav orchestration and resume banner"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add triplistview and tripeditorview for trip management"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add tripplannerview for map-based trip creation"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add tripcardview and trips tab in homeview bottom sheet"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add trip and tripstop models with tripprogression state machine"
   }
 ]
