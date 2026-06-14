@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-06-13",
+    "message": "fix inverted sign in goldenHourFactor negative branch"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "handle WeatherCondition.blowingDust and justify the @unknown default"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "document the themeModeEx vs dynamicComponents storage asymmetry"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "clamp goldenHourFactor to [0,1] and pin the boundary in tests"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "make dynamic theme colors reactive via theme-revision trait"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "hook tunnel detection into location feed and navigation route lifecycle"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "initialize ThemeEngine at launch and resolve scene chrome from ThemeModeEx"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add grey and dynamic per-layer toggles to settings appearance section"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "refactor SteddiTheme surface and text colors to pull from ThemeEngine snapshot"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add LocalNormsProvider with bundled climate table for temperature norms"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add TunnelDetectionService with osm overpass corridor query and gps signal heuristics"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add WeatherKitService with budget guard and graceful no-entitlement degradation"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add ThemeEngine service with continuous solar elevation, palette blending, and warmth tinting"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add ThemePalette reference palettes with rgb interpolation utilities"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add ThemeModeEx enum and DynamicThemeComponents with legacy themeMode migration"
+  },
+  {
     "date": "2026-06-10",
     "message": "optimize analytics: cache-first weekly aggregation with invalidation, scalar-only fetches"
   },
@@ -138,65 +198,5 @@
   {
     "date": "2026-06-09",
     "message": "check commute eta intent: live eta from the shared store"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "add schedule-based direction resolution for callers without a location fix"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "move swiftdata store to app group container with legacy store migration"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit tests: stale prefetch cannot clobber, status-code mirror rotation, cancellation bail, corrupt cache fallback"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit lookup: per-challenger hysteresis streak, exclude antimeridian-degenerate segments from the grid"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit prefetch: disk io, json coding, and index builds off the main actor; drop duplicate way geometry after indexing"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit fetch: exact steddi.io user agent, asserted on every overpass request"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit fetch: bail on cancellation and 4xx instead of rotating mirrors, set identifying user-agent"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit service: prefetch generation guard so stale fetches cannot clobber the active route"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit tests: equidistant ties, 50-degree heading boundary, cell-boundary straddling, maxspeed parsing matrix gaps, estimateSpeedLimit regression phrases"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "fix speed limit heuristic: word-boundary road suffixes, road class before ramp tier"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "osm speed limit service tests: parsing matrix, cache ttl, spatial lookup, hysteresis"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "osm speed limit service: spatial hash index, heading filter, lookup hysteresis"
-  },
-  {
-    "date": "2026-06-09",
-    "message": "osm speed limit service: overpass prefetch, maxspeed parsing, disk cache"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "stress tests: course gates, outbound leg disambiguation, backward window and rescan, zero-speed hold"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "resync map polyline from engine after auto-reroute"
   }
 ]
