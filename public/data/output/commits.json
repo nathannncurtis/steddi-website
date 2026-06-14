@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-06-13",
+    "message": "test camera edge cases \u2014 non-node elements, exclusive proximity threshold, heading-cone boundary, decay-reset survival, same-cell grid lookup"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test camera overpass parsing, spatial lookup, proximity, and alert debounce"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add crowdsourced camera reporting to nav overlay report sheet"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "wire speed-camera alerts end to end with nav overlay banner"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add speed-camera haptic event and ducking-aware alert tone"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "wire speed-camera proximity detection and per-session debounce into nav engine"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add SpeedCameraService with osm overpass fetch, spatial grid, and report crud"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add CameraReport model for crowdsourced enforcement-camera reports"
+  },
+  {
+    "date": "2026-06-13",
     "message": "remove dead locationGranted flag from onboarding coordinator"
   },
   {
@@ -166,37 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "add category field to pinnedlocation with icon-inference migration"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add placecategory enum and reviewurls utility"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "disambiguate kind(for:) to weatherkit's condition type, not the commute one"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add adversarial decision-engine edge tests \u2014 cooldown boundaries, faster-than-typical gating, multi-departure windows, inclusive/exclusive band edges, and copy safety"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "fix decision-engine test arg order and learned-hour outlier floor to drop sub-20% departures"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add CommuteNotificationService tests \u2014 learned/scheduled departure analysis, settings accessors, title copy, and pass guards"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "register commute-check background task \u2014 appdelegate bgtask registration, info.plist background modes, scheduler identifier, and environment wiring"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "extend commute detail with per-commute alert toggle, lead-time stepper, and quiet-hours pickers"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add commute notifications settings section \u2014 global toggle, weather sensitivity picker, weatherkit budget bar, and thoughtful permission explainer"
   }
 ]
