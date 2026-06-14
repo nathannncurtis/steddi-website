@@ -1,6 +1,62 @@
 [
   {
     "date": "2026-06-13",
+    "message": "break reroute ties by duration so exclusion fallback prefers faster route"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "validate polyline coordinate bounds at decode to catch precision mismatch"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add geometry-appropriate zone label and clamp timewindow hour/day inputs"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "persist no-go zone on save with modelcontext.save()"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add adversarial edge-case tests for zone validation and time windows"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add geometry predicate, time-window, validation, and migration tests"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add zonebadgeview for zone violation display"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "integrate zone validation into directionsservice fetchroutewithexclusions"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "rewrite nogozoneeditorview for multi-mode ui with mode picker and preview"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "create time window picker components and mode button style"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "create nogozonemapv2 uiviewrepresentable supporting gesture-driven drawing modes"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "implement zonevalidationengine with point-in-polygon and corridor intersection tests"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "implement zonedrawingservice with freehand/dottodot/polygon/namedroad modes"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add zonegeometry enum and timewindow model to nogozone"
+  },
+  {
+    "date": "2026-06-13",
     "message": "add adversarial ducking edge cases: alert never pauses, voice-only spoken interrupt, toggle matrix, lifecycle re-entry"
   },
   {
@@ -142,61 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "add WeatherKitService with budget guard and graceful no-entitlement degradation"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add ThemeEngine service with continuous solar elevation, palette blending, and warmth tinting"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add ThemePalette reference palettes with rgb interpolation utilities"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add ThemeModeEx enum and DynamicThemeComponents with legacy themeMode migration"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "optimize analytics: cache-first weekly aggregation with invalidation, scalar-only fetches"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add DriveRowCard and analytics empty state components"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "implement TrendInsightCard and AggregateStatsCards components"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "refactor CommuteAnalyticsView as time-window container over AnalyticsService"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "build DriveDetailView with speed chart, traffic shading, and route map"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "create AnalyticsService with trend computation and chart data builders"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "extend DriveRecord with computed-on-write summary fields"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add CommuteAnalyticsAggregate model for cached weekly analytics stats"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "projector: keep along-route hint across window reset, regression for out-and-back re-anchor"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "phone map: gate display link on scene activation, not app background"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "carplay map: display-link interpolated camera, route resync on auto-reroute"
   }
 ]
