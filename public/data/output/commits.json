@@ -1,6 +1,58 @@
 [
   {
     "date": "2026-06-13",
+    "message": "remove dead locationGranted flag from onboarding coordinator"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "drop unused reduce motion environment read in onboarding emergency view"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "gate onboarding permissions pulse behind reduce motion"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test onboarding coordinator edge cases \u2014 beat order, idempotent advance/skip, contact whitespace handling"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "implement routedrawrenderer init(overlay:) to fix launch-time instantiation trap"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test onboarding coordinator beat advancement and selection state"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "refactor onboardingview to 4-beat coordinator-driven flow"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add onboarding emergency beat with optional contact setup"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add onboarding contact picker bridge for cncontactpicker"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add onboarding theme beat with accent and mode pickers"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add onboarding permissions beat with in-context location request"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add onboarding hero beat with route draw-on over dark map"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add onboarding coordinator with beat state machine"
+  },
+  {
+    "date": "2026-06-13",
     "message": "test routedrawgeometry edge cases \u2014 tiny/near-1 progress, zero-length and coincident segments, exact vertex boundary, strict easeout monotonicity"
   },
   {
@@ -146,57 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "add commute notifications settings section \u2014 global toggle, weather sensitivity picker, weatherkit budget bar, and thoughtful permission explainer"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add CommuteNotificationService \u2014 observable orchestrator for bgapprefresh scheduling, permission flow, learned-departure analysis, and decision-engine dispatch"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "extend commute model with per-commute notification toggle, quiet hours, and lead minutes"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add CommuteNotificationCenter \u2014 un wrapper with commute-alert category, start-commute deep link, dedupe, cooldown bookkeeping plus weather and center tests"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add CommuteWeatherService \u2014 weatherkit harsh-condition mapping with monthly budget guard, coordinate-keyed cache, and graceful degradation"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add CommuteNotificationDecisionEngine \u2014 pure notify/skip logic with traffic, weather, quiet-hours, cooldown, and zero-history branches plus unit tests"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "break reroute ties by duration so exclusion fallback prefers faster route"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "validate polyline coordinate bounds at decode to catch precision mismatch"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add geometry-appropriate zone label and clamp timewindow hour/day inputs"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "persist no-go zone on save with modelcontext.save()"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add adversarial edge-case tests for zone validation and time windows"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add geometry predicate, time-window, validation, and migration tests"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add zonebadgeview for zone violation display"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "integrate zone validation into directionsservice fetchroutewithexclusions"
   }
 ]
