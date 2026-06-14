@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-06-14",
+    "message": "docs: refresh readme, architecture, and todo for the finished app + routing engine"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "carplay: cancel watch/live tasks on disconnect, route preview uses map user location"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "carplay map: remove notification observers on deinit, expose user coordinate"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "default overridesGlobalNoGoZones to false for lightweight migration safety"
+  },
+  {
+    "date": "2026-06-14",
     "message": "test corridorValidator rejects real A* detour route"
   },
   {
@@ -182,21 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "drop unused reduce motion environment read in onboarding emergency view"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "gate onboarding permissions pulse behind reduce motion"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test onboarding coordinator edge cases \u2014 beat order, idempotent advance/skip, contact whitespace handling"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "implement routedrawrenderer init(overlay:) to fix launch-time instantiation trap"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test onboarding coordinator beat advancement and selection state"
   }
 ]
