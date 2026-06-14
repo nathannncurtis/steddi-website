@@ -1,6 +1,46 @@
 [
   {
     "date": "2026-06-13",
+    "message": "add adversarial road-condition edge tests \u2014 exclusive proximity threshold, raw-value degradation, exact-window reconfirm, clock skew, and grid status filtering"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test road condition decay, drive-past detection, and spatial lookup"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "present reconfirm prompt for stale conditions after arrival"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "display route-scoped road condition badges with clustering"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "fire haptic and voice heads-up when approaching road conditions"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add RoadConditionReconfirmSheet for 14-day reconfirm prompts"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add road-condition report step to post-arrival sheet"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "configure RoadConditionService and run decay sweep at launch"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "implement RoadConditionService with crud, spatial grid, and decay"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add RoadCondition @Model and kind/status enums"
+  },
+  {
+    "date": "2026-06-13",
     "message": "surface alert when place review link-out fails to open"
   },
   {
@@ -158,45 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "register now-playing remote commands at app launch"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "integrate audioduckingservice into voiceguidanceservice to activate/deactivate ducking per toggle"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "integrate nowplayingminibar into steddinavoverlay portrait layout with conditional rendering"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add music & audio settings toggles for mini-bar, voice ducking, and alert ducking"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "create nowplayingminibar component with responsive layout for portrait/landscape nav"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "enhance nowplayingservice with observable pattern, playback state binding, and remote command handlers"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "create audioduckingservice with independent voice/alert session management and toggle support"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "assert in-bounds safe resolution for orphaned current stop id"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "confirm and end active session before swipe-deleting in-progress trip"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "confirm and end active session before deleting in-progress trip"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add helper to end active trip session on deletion"
   }
 ]
