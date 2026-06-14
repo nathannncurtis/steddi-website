@@ -1,6 +1,54 @@
 [
   {
     "date": "2026-06-13",
+    "message": "disambiguate kind(for:) to weatherkit's condition type, not the commute one"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add adversarial decision-engine edge tests \u2014 cooldown boundaries, faster-than-typical gating, multi-departure windows, inclusive/exclusive band edges, and copy safety"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "fix decision-engine test arg order and learned-hour outlier floor to drop sub-20% departures"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add CommuteNotificationService tests \u2014 learned/scheduled departure analysis, settings accessors, title copy, and pass guards"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "register commute-check background task \u2014 appdelegate bgtask registration, info.plist background modes, scheduler identifier, and environment wiring"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "extend commute detail with per-commute alert toggle, lead-time stepper, and quiet-hours pickers"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add commute notifications settings section \u2014 global toggle, weather sensitivity picker, weatherkit budget bar, and thoughtful permission explainer"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add CommuteNotificationService \u2014 observable orchestrator for bgapprefresh scheduling, permission flow, learned-departure analysis, and decision-engine dispatch"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "extend commute model with per-commute notification toggle, quiet hours, and lead minutes"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add CommuteNotificationCenter \u2014 un wrapper with commute-alert category, start-commute deep link, dedupe, cooldown bookkeeping plus weather and center tests"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add CommuteWeatherService \u2014 weatherkit harsh-condition mapping with monthly budget guard, coordinate-keyed cache, and graceful degradation"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add CommuteNotificationDecisionEngine \u2014 pure notify/skip logic with traffic, weather, quiet-hours, cooldown, and zero-history branches plus unit tests"
+  },
+  {
+    "date": "2026-06-13",
     "message": "break reroute ties by duration so exclusion fallback prefers faster route"
   },
   {
@@ -150,53 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "add trip and tripstop models with tripprogression state machine"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "fix inverted sign in goldenHourFactor negative branch"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "handle WeatherCondition.blowingDust and justify the @unknown default"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "document the themeModeEx vs dynamicComponents storage asymmetry"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "clamp goldenHourFactor to [0,1] and pin the boundary in tests"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "make dynamic theme colors reactive via theme-revision trait"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "hook tunnel detection into location feed and navigation route lifecycle"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "initialize ThemeEngine at launch and resolve scene chrome from ThemeModeEx"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add grey and dynamic per-layer toggles to settings appearance section"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "refactor SteddiTheme surface and text colors to pull from ThemeEngine snapshot"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add LocalNormsProvider with bundled climate table for temperature norms"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add TunnelDetectionService with osm overpass corridor query and gps signal heuristics"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "add WeatherKitService with budget guard and graceful no-entitlement degradation"
   }
 ]
