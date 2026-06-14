@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-06-13",
+    "message": "test routedrawgeometry edge cases \u2014 tiny/near-1 progress, zero-length and coincident segments, exact vertex boundary, strict easeout monotonicity"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "test transitionkit timing params and route draw-on progress math"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "stagger post-arrival sheet review rows with reduce-motion fallback"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "stagger commute cards, crossfade sheet tabs, add card press feedback"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add reroute card countdown ring with spring-in entrance and animated auto-dismiss"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "choreograph nav overlay entrance, floating button spring, and arrival celebration"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add traveled-segment fade via threshold-gated split at nav pose distance"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "implement routedrawrenderer for route polyline draw-on animation"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add transitionkit module with unified animation timing and reduce-motion gate"
+  },
+  {
+    "date": "2026-06-13",
     "message": "add adversarial road-condition edge tests \u2014 exclusive proximity threshold, raw-value degradation, exact-window reconfirm, clock skew, and grid status filtering"
   },
   {
@@ -162,41 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "integrate zone validation into directionsservice fetchroutewithexclusions"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "rewrite nogozoneeditorview for multi-mode ui with mode picker and preview"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "create time window picker components and mode button style"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "create nogozonemapv2 uiviewrepresentable supporting gesture-driven drawing modes"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "implement zonevalidationengine with point-in-polygon and corridor intersection tests"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "implement zonedrawingservice with freehand/dottodot/polygon/namedroad modes"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add zonegeometry enum and timewindow model to nogozone"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add adversarial ducking edge cases: alert never pauses, voice-only spoken interrupt, toggle matrix, lifecycle re-entry"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add tests for ducking decision matrix, session options, and now-playing seek commands"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "register now-playing remote commands at app launch"
   }
 ]
