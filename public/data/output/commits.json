@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-14",
+    "message": "test phase 5 edge cases: inactive time-windowed zone, single-step + empty-maneuver adapter fallback, degenerate polygon, freeFlowDuration, off-rush hour, short corridor"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add Phase 5 tests: provider adapter, end-to-end, fallback, mappings"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "wire custom-routing flag: settings toggle + route-planner seam"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add RouteProviderSelector + factory with feature flag and auto-fallback"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add CustomRouter facade conforming to RouteProvider"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add StepSynthesizer: edge path to NavStep turn-by-turn"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add RouteProvider protocol abstracting route generation"
+  },
+  {
+    "date": "2026-06-14",
     "message": "make graph snap deterministic: break distance ties by lower edge index"
   },
   {
@@ -170,33 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "test routedrawgeometry edge cases \u2014 tiny/near-1 progress, zero-length and coincident segments, exact vertex boundary, strict easeout monotonicity"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test transitionkit timing params and route draw-on progress math"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "stagger post-arrival sheet review rows with reduce-motion fallback"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "stagger commute cards, crossfade sheet tabs, add card press feedback"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add reroute card countdown ring with spring-in entrance and animated auto-dismiss"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "choreograph nav overlay entrance, floating button spring, and arrival celebration"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add traveled-segment fade via threshold-gated split at nav pose distance"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "implement routedrawrenderer for route polyline draw-on animation"
   }
 ]
