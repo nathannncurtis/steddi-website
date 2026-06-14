@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-06-10",
+    "message": "optimize analytics: cache-first weekly aggregation with invalidation, scalar-only fetches"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add DriveRowCard and analytics empty state components"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "implement TrendInsightCard and AggregateStatsCards components"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "refactor CommuteAnalyticsView as time-window container over AnalyticsService"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "build DriveDetailView with speed chart, traffic shading, and route map"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "create AnalyticsService with trend computation and chart data builders"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "extend DriveRecord with computed-on-write summary fields"
+  },
+  {
+    "date": "2026-06-10",
+    "message": "add CommuteAnalyticsAggregate model for cached weekly analytics stats"
+  },
+  {
+    "date": "2026-06-10",
     "message": "projector: keep along-route hint across window reset, regression for out-and-back re-anchor"
   },
   {
@@ -166,37 +198,5 @@
   {
     "date": "2026-06-10",
     "message": "resync map polyline from engine after auto-reroute"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "interpolator math and pose copy tests"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "display-link pose interpolator drives puck and camera on one clock"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "custom nav puck rides the snapped route, system gps dot hidden during nav"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "carplay consumes the snapped pose, drop its own animation clock and bearing math"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "dedupe stale gps fixes in the nav location feed"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "nav compass reads engine bearing with sector hysteresis, drop dead triangle"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "heading hygiene: accuracy gate, orientation-aware frame, calibration prompt"
-  },
-  {
-    "date": "2026-06-10",
-    "message": "projection, bearing continuity, and pose publishing tests"
   }
 ]
