@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-06-14",
+    "message": "test corridorValidator rejects real A* detour route"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "test prefLearner admissibility under adversarial inputs"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "test phase 6 corridor validation over realistic fixtures"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add CorridorValidator (phase 6 harness)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fix single-class affinity: reference corridor's available classes"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "test phase 7 preference learning"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "wire learned weights into CustomRouter"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add PrefLearner + LearnedWeightsStore (phase 7 core)"
+  },
+  {
+    "date": "2026-06-14",
     "message": "test phase 5 edge cases: inactive time-windowed zone, single-step + empty-maneuver adapter fallback, degenerate polygon, freeFlowDuration, off-rush hour, short corridor"
   },
   {
@@ -166,37 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "test onboarding coordinator beat advancement and selection state"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "refactor onboardingview to 4-beat coordinator-driven flow"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add onboarding emergency beat with optional contact setup"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add onboarding contact picker bridge for cncontactpicker"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add onboarding theme beat with accent and mode pickers"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add onboarding permissions beat with in-context location request"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add onboarding hero beat with route draw-on over dark map"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add onboarding coordinator with beat state machine"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test routedrawgeometry edge cases \u2014 tiny/near-1 progress, zero-length and coincident segments, exact vertex boundary, strict easeout monotonicity"
   }
 ]
