@@ -1,6 +1,74 @@
 [
   {
     "date": "2026-06-15",
+    "message": "regenerate project for round-9 fix files"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'fix/nav-core-correctness'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-aae963149c3ed776c'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-aa61616a7a2bff166'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "navengine: gate arrival on along-route progress, not just last-vertex proximity"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "navengine: decay the eta speed estimate (ewma) so it tracks recent conditions"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix recenter button glyph contrast on near-white fill"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "make trip arrival prompt scroll so buttons never collide"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "pin post-arrival sheet to app theme and make review state scroll"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix onboarding status-bar glyphs dark-on-dark in light theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "mapmatching: dedup seam against tail region, not lone tail vertex"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "carplay dashboard: store and cancel the poll task so reconnect can't spin a duplicate"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "live activity: end finished trip leg immediately on handoff so two don't stack"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "models: persist route/trip/commute enums as raw columns with safe-default decode"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "analytics: drain legacy gps-summary backfill off the main actor"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "roadgraph deserializer: bound reserveCapacity against byte budget"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "no-go zone validation: test route segments, not just vertices"
+  },
+  {
+    "date": "2026-06-15",
     "message": "fix last contrast stragglers: warmRed-as-text + white-on-accent map pin"
   },
   {
@@ -130,73 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "fix: geocoding proximity re-rank dropped closer results before sorting"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: commute schedule window crossing midnight never matched"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a3963f65116ab778a'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-ae726297a7c8c9325'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: widget treats a non-live eta with no fresh stamp as stale"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: snapshot commute @model fields before await in notification service"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "expand sub-44pt tap targets on the places and trips tabs"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "clear the terminal live eta on drive end so the idle widget isn't wrong"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tear down the home nav overlay when the active trip is deleted"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "recheck navigation liveness after off-route recovery awaits"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test node-snapped endpoints terminate at the node with no overshoot"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix node-snapped endpoint overshooting by a full terminal edge"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix trip-planner numbered stop badge to the on-fill accent pairing"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "converge onAccent-on-text-safe-accent ctas onto .steddiPrimary"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "converge white-on-accent-fill ctas onto .steddiPrimary"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "converge route-preview start + reroute switch ctas onto .steddiPrimary"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "de-flake oneshotlocation timing tests: assert behavior + time-limit, not wall-clock"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a3e3d04562d7bffcc'"
   }
 ]
