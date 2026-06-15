@@ -1,6 +1,142 @@
 [
   {
     "date": "2026-06-15",
+    "message": "regenerate project for round-3 fix files"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a56c09a5addfa12cf'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-adf53736a7d006cd4'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a48e56bca17e31361'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-ae316a95e7889e4f0'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a339db74a4a5c9247'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "clear osm speed-limit index when a new route's prefetch fails"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "make carplay free-look auto-recenter a single cancellable task"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "capture value copies in carplay list handlers, not swiftdata models"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "wire phone-companion reroute switch button to real route swap"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "carplay dashboard buttons foreground the app via deep links"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "clear off-route recovery latch when recovery cannot splice"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "align referenceshortestcost with the router on same-edge endpoints"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use textSecondary for inactive sheet tabs so they meet contrast"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "credit edge-transition step to the entered edge in pref map-match"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "skip edgecost geometry lookup when no zones are configured"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix single-edge route trim composing on already-trimmed geometry"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "finalize drive-record summary on the primary save path"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "floor speedometer mph caption so it stays legible at small sizes"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "add theme contrast unit tests and register new files"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "raise textmuted to wcag aa on all theme surfaces"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "scale theme typography with dynamic type and make accent text-safe per surface"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "add wcag contrast-ratio helper over rgbcolor"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use a contrasting checkmark on light accent swatches in settings"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "let onboarding card grow/scroll and wrap accent swatches under large type"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "consolidate onboarding to one unambiguous skip control per beat"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "stop requesting notification permission at launch; start tip observer"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "finish consumable tip transactions so they leave the storekit queue"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "defer arrival notification permission to post-arrival, not launch"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "cancel pending bg refresh when no upcoming departures remain"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use textprimary for selected route chip label so it clears aa over accentsubtle"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use fixed on-accent label for analytics window picker so it contrasts in all themes"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "promote card chevrons and trip badge metadata for contrast on near-black surfaces"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "route now-playing bar and arrival card through steddiglass so reduce transparency goes opaque"
+  },
+  {
+    "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a478d54a54d215ba8'"
   },
   {
@@ -62,141 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "make recenter button theme- and contrast-aware"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "correct broadway speed-estimate test expectation"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "drop glass to solid fallback under system increase contrast"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "reset off-route recovery cap per trip"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "erase all 12 persisted models in deleteAllData"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "size speed-camera grid cell above the alert radius"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix speed-limit estimate: add residential tier, lower default"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix invisible glyphs on active nav floating buttons"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "bounds-check chosen way before caching lastwayindex"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "clarify unknown road class is filtered at build time, not handled separately"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "remove unreachable zero-eta guard after savings check"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "consolidate reroute loop onto shared state so dismissed suggestions re-evaluate"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "exclude rejoin candidates at or past the destination and fix forward-only docstring"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "store edge lengthMeters as double end-to-end to stop snap fraction overflow"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix astar same-edge round-trip path reconstruction"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "use on-accent foreground for active sheet tab label"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "make home bottom nav tab bar read as liquid glass"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "replace utc timezone force-unwrap with fallback chain"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "combine rdp count guard with endpoint binding"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "replace roadgraphbuilder endpoint force-unwraps with safe binding"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "coalesce theme timer reschedules to avoid timer thrashing"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "log eta fetch failure instead of silently swallowing it"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "clamp commutetrip day-of-week and hour to valid ranges"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "measure partial-edge step distance from trimmed geometry"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "bounds-check coordinates on roadgraph serialize and deserialize"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "guard equal weekday array lengths before indexing in mergeaggregates"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "guard off-route splice against out-of-range rejoin index"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "serialize liveactivity end and surface update failures to avoid double-end race"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "use precise etaseconds for reroute eta to preserve sub-minute precision"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "break onoffroute retain cycle by clearing closure on stopnavigation"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "document termination-path semaphore tradeoff in endactivityimmediately"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "drop force-unwrap on cache directory urls"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "drop force-unwrap on utc timezone in solar elevation"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "drop force-unwrap in simplifiedinstruction cut comparison"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "drop force-unwrap in nextdeparturedate min computation"
   }
 ]
