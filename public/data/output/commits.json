@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-06-14",
+    "message": "fix route preview: set primary polyline identity before adding overlay so the line paints"
+  },
+  {
+    "date": "2026-06-14",
     "message": "docs: refresh readme, architecture, and todo for the finished app + routing engine"
   },
   {
@@ -194,9 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "remove dead locationGranted flag from onboarding coordinator"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "drop unused reduce motion environment read in onboarding emergency view"
   }
 ]
