@@ -1,6 +1,50 @@
 [
   {
     "date": "2026-06-14",
+    "message": "break onoffroute retain cycle by clearing closure on stopnavigation"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "document termination-path semaphore tradeoff in endactivityimmediately"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "drop force-unwrap on cache directory urls"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "drop force-unwrap on utc timezone in solar elevation"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "drop force-unwrap in simplifiedinstruction cut comparison"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "drop force-unwrap in nextdeparturedate min computation"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "guard maxpoints divide-by-zero in buildroutesamples"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "recheck live session after each reroute eta await"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "guard empty polyline in rejoincandidates"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fall back to full edge geometry when step trim cannot resolve a cut"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "validate decoded roadgraph indices and guard edge/node access"
+  },
+  {
+    "date": "2026-06-14",
     "message": "fix locationservice deinit isolation: nonisolated token, drop main-actor call"
   },
   {
@@ -154,49 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "add RouteProvider protocol abstracting route generation"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "make graph snap deterministic: break distance ties by lower edge index"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test cost model: ups scenario, protected/unprotected left, prefs, zones, admissibility"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix binary heap tests: extract mutating heap calls out of expect macro"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add default cost model: turn costs, protected-left inference, prefs, zone soft/hard"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "extend graph edges with oncoming-lane count and dedicated-left flag for turn costs"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test BinaryHeap and AStarSearch: differential vs dijkstra, admissibility, snap, mid-edge (phase 3)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add BinaryHeap and AStarSearch with snap-to-graph overlay (phase 3)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test router edge cases: heading snap, closed loops, malformed tags, antimeridian serialization (phase 2)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "keep expired corridor cache for stale-fallback degradation (phase 2)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test shared tag parsing matrix and overpass loader (phase 2)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add overpass road-graph loader with corridor disk cache (phase 2)"
   }
 ]
