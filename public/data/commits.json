@@ -1,6 +1,18 @@
 [
   {
     "date": "2026-06-14",
+    "message": "fix locationservice deinit isolation: nonisolated token, drop main-actor call"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fix observer/display-link leaks: deinit cleanup in LocationService and SteddiMapContainer"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fix map matching: terminate chunk loop on full consumption, measure distance from stitched line"
+  },
+  {
+    "date": "2026-06-14",
     "message": "center the showpiece card and cap tall content vertically"
   },
   {
@@ -186,17 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "add overpass road-graph loader with corridor disk cache (phase 2)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test road-graph builder and binary serializer (phase 1)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add road-graph data model, builder, and binary serializer (phase 1)"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "promote OSM tag parsing into shared OSMTagParsing namespace"
   }
 ]
