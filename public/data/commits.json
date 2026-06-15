@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-06-14",
+    "message": "center the showpiece card and cap tall content vertically"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fall into home: morph the beat card into the where-to pill on completion"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "materialize glass wordmark plate on hero draw-complete + video seam"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add morphing liquid glass showpiece card hosting the beat reel"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "extend onboarding beats with showcase reel + reorder for showpiece"
+  },
+  {
+    "date": "2026-06-14",
     "message": "glass remaining landscape nav chrome; remove redundant shadows"
   },
   {
@@ -178,25 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "promote OSM tag parsing into shared OSMTagParsing namespace"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "drop stale todo in emergency callContact \u2014 missing-contact prompt already wired through presentContactSetup"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "make rerouting route-preference scope explicit and store in variable to match preview path"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test route-preference resolution edge cases \u2014 explicit commute opt-out beats global avoidance, highway override, both-globals ordering, apply(to:) mapping"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "polish emergency mode: hierarchy, accessibility, haptics, safe contact-setup draft and missing-contact prompt"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "polish route preview toll/highway badges and add active-avoidance indicators"
   }
 ]
