@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-06-14",
+    "message": "use on-accent foreground for active sheet tab label"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "make home bottom nav tab bar read as liquid glass"
+  },
+  {
+    "date": "2026-06-14",
     "message": "replace utc timezone force-unwrap with fallback chain"
   },
   {
@@ -190,13 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "test corridorValidator rejects real A* detour route"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test prefLearner admissibility under adversarial inputs"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test phase 6 corridor validation over realistic fixtures"
   }
 ]
