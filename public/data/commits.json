@@ -1,6 +1,38 @@
 [
   {
     "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a29b5519fd1523898'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "round-7 contrast stragglers + destructive button style + cold-launch map theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: commute eta intent steers to update on a migration-needed open error"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: orphan live activity sweep also runs at launch, not just homeview"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: carplay leg change re-targets the route instead of no-op startNavigation"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: speed-camera/speed-limit filters went omni-directional before first bearing"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: geocoding proximity re-rank dropped closer results before sorting"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: commute schedule window crossing midnight never matched"
+  },
+  {
+    "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a3963f65116ab778a'"
   },
   {
@@ -166,37 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "prevent speedometer clip at large dynamic type"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix tripcard in-progress badge accent-on-accent"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "remove dead fuzzyrouteparser (unused, mis-parsed highway directions)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test: assert steddiPrimary pairing (onAccent on accentBrand) clears aa"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "raise onboarding secondary/muted text tiers for lighter frosted-glass cards"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add steddiPrimary button style \u2014 canonical accent CTA (onAccent on accentBrand glass)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix theme-beat legibility: fixed-light selection chrome on the accent-tinted card"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix active sheet-tab pill contrast: accentbrand fill + onaccent label"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a44d6614196c72ff1'"
   }
 ]
