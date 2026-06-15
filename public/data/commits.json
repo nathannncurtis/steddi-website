@@ -1,6 +1,14 @@
 [
   {
     "date": "2026-06-14",
+    "message": "fix speed-limit estimate: add residential tier, lower default"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fix invisible glyphs on active nav floating buttons"
+  },
+  {
+    "date": "2026-06-14",
     "message": "bounds-check chosen way before caching lastwayindex"
   },
   {
@@ -190,13 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "glass the nav floating controls (portrait + landscape)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add SteddiGlass vocabulary + reduce-transparency observer"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "enable live activities: add NSSupportsLiveActivities so dynamic island + lock screen nav work on device"
   }
 ]
