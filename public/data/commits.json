@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-06-14",
+    "message": "enable live activities: add NSSupportsLiveActivities so dynamic island + lock screen nav work on device"
+  },
+  {
+    "date": "2026-06-14",
     "message": "fix website sync: copy activity flat into public/data, not a nested output/ dir"
   },
   {
@@ -194,9 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "add SpeedCameraService with osm overpass fetch, spatial grid, and report crud"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add CameraReport model for crowdsourced enforcement-camera reports"
   }
 ]
