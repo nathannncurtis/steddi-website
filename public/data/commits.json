@@ -1,6 +1,110 @@
 [
   {
     "date": "2026-06-15",
+    "message": "fix last contrast stragglers: warmRed-as-text + white-on-accent map pin"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-ade25c86dcb0af7a7'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a448fce5c5bd21b10'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'contrast-convergence-pass'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: off-route latch re-arm matrix + alert-debounce preservation across in-place restarts"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix off-route: preserve passed-camera debounce across recovery splice and apple reroute"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix off-route: re-arm latch on every recovery early-return and reroute failure"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: durable pending-route store so carplay places tab and start navigation survive cold launch"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: storage-warning banner uses contrasting on-fill foreground, not white-on-red"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "nav engine: preservingAlerts flag + alerted-set snapshot/restore for in-place restarts"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: end live activity asynchronously on scene reclaim to not block the main thread"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: feed lastknownlocation from the always-on location feed for solar theming"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: never silently revert to the pre-migration legacy store on a group-open failure"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: cache weatherkit-unavailable verdict so commute passes stop re-hitting it"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: hop commute notification authorizationStatus write to the main actor"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "a11y: use shared DaysOfWeekPicker for commute schedule day pickers"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast: dark fallback fill for hero wordmark under reduce transparency"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast: promote in-nav muted readouts to textSecondary over glass"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast: AA-correct on-fill foreground for reconfirm action chips"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast: AA-correct on-fill foreground for post-arrival condition chips"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast: fill selected mode pill + current-stop badge with accentBrand"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast: use warmRedText for 'end trip here' action label"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast: use sageText for reroute savings + search distance values"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: stripping a waypoint leg's departure step preserves its lead-in distance"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: corridor validator time-sanity uses free-flow time, not penalty-laden cost"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: hard no-go corridor zone now catches an edge crossing it between vertices"
+  },
+  {
+    "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a29b5519fd1523898'"
   },
   {
@@ -94,109 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a3e3d04562d7bffcc'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a95a95d260a236c63'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-acdc19e7c1401b3be'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a40443f7d3546b75a'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a921f31e38edadd3f'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a2ef7ed7b4ae48f2c'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-ad7f72be18d19e316'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "donation sheet: pin dark + theme tokens from onboarding (no white flash), plain tip rows with accent prices (no link-blue)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding ctas: continue/add-contact use in-flight accent fill + on-accent label, not glassProminent white-on-accent"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding: light status bar over fixed-dark backdrop + footer cta uses in-flight accent fill with on-accent label (drop glassProminent white-on-accent aa fail)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix theme-beat header + selected-card icons: fixed-light, not accent-on-accent"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix(home): shrink-to-fit nav tab labels at large dynamic type"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix(home): remove false drag affordance from bottom sheet grabber"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix(home): resume banner button fills with accentBrand for aa contrast"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix(nav): sever orphaned off-route closure on homeview teardown"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix(nav): hold off-route recovery cap across whole trip, not per leg"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: enforce access=private/no/destination in the cost model"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: per-direction oncoming-lane count for asymmetric two-way roads"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add swiftdata versioned schema + migration plan; pass it to app and read-only shared containers"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tests: remainingPolyline geometry and reroute stay-cooldown suppression"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "route stay taps through dismissRerouteSuggestion so declines are recorded"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix reroute: compare path-aware etas, suppress just-declined route"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "make fetchETA(from:along:) path-aware via osrm; add remainingPolyline helper"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "share one navigationattributes source across app and live activity"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "do not end nav live activity on scene disconnect mid-drive"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix commute notifications: honor configured days-of-week so weekday-only commutes don't fire weekend alerts or waste wakeups"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "prevent speedometer clip at large dynamic type"
   }
 ]
