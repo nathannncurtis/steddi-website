@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-06-15",
+    "message": "fix theme-beat legibility: fixed-light selection chrome on the accent-tinted card"
+  },
+  {
+    "date": "2026-06-15",
     "message": "fix active sheet-tab pill contrast: accentbrand fill + onaccent label"
   },
   {
@@ -194,9 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "use onAccent for selected place-icon glyph"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "use onAccent on find-road/close-shape buttons; pin editor color scheme"
   }
 ]
