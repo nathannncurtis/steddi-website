@@ -1,6 +1,86 @@
 [
   {
     "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a9f763ae261711bee'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a681687dd87645e1a'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a96759911b0982150'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a77f6d0a5e401689f'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix(places): legible +N delay badge foreground on traffic-status fill"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix(places): use category.labelColor for chip label to clear AA contrast"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test next-departure commute selection for idle eta widget"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "refresh idle commute eta widget on app foreground"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "wire pre-drive eta widget from commute-check background pass"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "home: high-contrast resume-trip banner, onAccent resume button"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "home: use sageText for commute card distance"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "home: center route loading overlay instead of bottom-pinning"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "nav: legible over-limit speed digit on glass via amberText"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "contrast stop-order badge per fill; pin trip editor color scheme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use onAccent for selected place-icon glyph"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use onAccent on find-road/close-shape buttons; pin editor color scheme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use onAccent for share-my-location button label"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use onAccent for selected drawing-mode pill text"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "expand settings accent swatch tap targets to 44pt"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix onboarding skip footer contrast on dark hero in light theme"
+  },
+  {
+    "date": "2026-06-15",
     "message": "regenerate project for wave-1 round-4 fix files"
   },
   {
@@ -118,85 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "wire phone-companion reroute switch button to real route swap"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "carplay dashboard buttons foreground the app via deep links"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "clear off-route recovery latch when recovery cannot splice"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "align referenceshortestcost with the router on same-edge endpoints"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "use textSecondary for inactive sheet tabs so they meet contrast"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "credit edge-transition step to the entered edge in pref map-match"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "skip edgecost geometry lookup when no zones are configured"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix single-edge route trim composing on already-trimmed geometry"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "finalize drive-record summary on the primary save path"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "floor speedometer mph caption so it stays legible at small sizes"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add theme contrast unit tests and register new files"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "raise textmuted to wcag aa on all theme surfaces"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "scale theme typography with dynamic type and make accent text-safe per surface"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add wcag contrast-ratio helper over rgbcolor"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "use a contrasting checkmark on light accent swatches in settings"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "let onboarding card grow/scroll and wrap accent swatches under large type"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "consolidate onboarding to one unambiguous skip control per beat"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "stop requesting notification permission at launch; start tip observer"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "finish consumable tip transactions so they leave the storekit queue"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "defer arrival notification permission to post-arrival, not launch"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "cancel pending bg refresh when no upcoming departures remain"
   }
 ]
