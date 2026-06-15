@@ -1,198 +1,202 @@
 [
   {
-    "date": "2026-03-29",
-    "message": "filter internal tool mentions from website activity sync"
+    "date": "2026-06-14",
+    "message": "fix website sync: copy activity flat into public/data, not a nested output/ dir"
   },
   {
-    "date": "2026-03-29",
-    "message": "fix: use correct GitHub email in sync workflow"
+    "date": "2026-06-14",
+    "message": "fix route preview: set primary polyline identity before adding overlay so the line paints"
   },
   {
-    "date": "2026-03-29",
-    "message": "fix: sync workflow targets master branch on website repo"
+    "date": "2026-06-14",
+    "message": "docs: refresh readme, architecture, and todo for the finished app + routing engine"
   },
   {
-    "date": "2026-03-29",
-    "message": "add GitHub Action to sync TODO and commit activity to website repo"
+    "date": "2026-06-14",
+    "message": "carplay: cancel watch/live tasks on disconnect, route preview uses map user location"
   },
   {
-    "date": "2026-03-28",
-    "message": "fix carplay map: follow user location on connect, traffic enabled, proper camera on init"
+    "date": "2026-06-14",
+    "message": "carplay map: remove notification observers on deinit, expose user coordinate"
   },
   {
-    "date": "2026-03-28",
-    "message": "carplay overhaul: raw numeric values for ETA/distance, maneuvers only rebuild on instruction change, no string parsing"
+    "date": "2026-06-14",
+    "message": "default overridesGlobalNoGoZones to false for lightweight migration safety"
   },
   {
-    "date": "2026-03-28",
-    "message": "fix carplay: set map view controller as window rootViewController on connect per Apple docs"
+    "date": "2026-06-14",
+    "message": "test corridorValidator rejects real A* detour route"
   },
   {
-    "date": "2026-03-28",
-    "message": "update TODO with all completed work from this session"
+    "date": "2026-06-14",
+    "message": "test prefLearner admissibility under adversarial inputs"
   },
   {
-    "date": "2026-03-28",
-    "message": "fix: compass shows device magnetometer heading (direction phone faces), not GPS course"
+    "date": "2026-06-14",
+    "message": "test phase 6 corridor validation over realistic fixtures"
   },
   {
-    "date": "2026-03-28",
-    "message": "fix: compass shows cardinal direction (N/NE/E/SE/S/SW/W/NW) based on heading, no rotation"
+    "date": "2026-06-14",
+    "message": "add CorridorValidator (phase 6 harness)"
   },
   {
-    "date": "2026-03-28",
-    "message": "fix: use saved travel time from route planning for ETA instead of 30mph assumption"
+    "date": "2026-06-14",
+    "message": "fix single-class affinity: reference corridor's available classes"
   },
   {
-    "date": "2026-03-28",
-    "message": "save turn-by-turn steps at route planning time, use them directly during navigation instead of generating from polyline"
+    "date": "2026-06-14",
+    "message": "test phase 7 preference learning"
   },
   {
-    "date": "2026-03-27",
-    "message": "debug: add trace logging throughout saved route navigation flow"
+    "date": "2026-06-14",
+    "message": "wire learned weights into CustomRouter"
   },
   {
-    "date": "2026-03-27",
-    "message": "rewrite NavigationEngine from scratch: unified NavStep model, MKRoute is just an adapter, no dual paths"
+    "date": "2026-06-14",
+    "message": "add PrefLearner + LearnedWeightsStore (phase 7 core)"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: off-route grace period, wider threshold, custom routes don't trigger Apple reroute"
+    "date": "2026-06-14",
+    "message": "test phase 5 edge cases: inactive time-windowed zone, single-step + empty-maneuver adapter fallback, degenerate polygon, freeFlowDuration, off-rush hour, short corridor"
   },
   {
-    "date": "2026-03-27",
-    "message": "custom routing: saved routes now use own turn-by-turn logic, fully independent from Apple Maps"
+    "date": "2026-06-14",
+    "message": "add Phase 5 tests: provider adapter, end-to-end, fallback, mappings"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: free-look mode during nav \u2014 pan/pinch pauses auto-follow, recenter button to resume"
+    "date": "2026-06-14",
+    "message": "wire custom-routing flag: settings toggle + route-planner seam"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: remove duplicate didDisconnect overload and nil coalescing warning in CarPlay"
+    "date": "2026-06-14",
+    "message": "add RouteProviderSelector + factory with feature flag and auto-fallback"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: saved route polyline now used for map rendering and position tracking, not just route selection"
+    "date": "2026-06-14",
+    "message": "add CustomRouter facade conforming to RouteProvider"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: remove duplicate puck annotation, use single MKUserLocation puck"
+    "date": "2026-06-14",
+    "message": "add StepSynthesizer: edge path to NavStep turn-by-turn"
   },
   {
-    "date": "2026-03-27",
-    "message": "carplay: swap CPListTemplate to CPMapTemplate with full map view, maneuver display, zoom controls"
+    "date": "2026-06-14",
+    "message": "add RouteProvider protocol abstracting route generation"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: saved routes now used for navigation \u2014 picks closest Apple Maps route to saved polyline"
+    "date": "2026-06-14",
+    "message": "make graph snap deterministic: break distance ties by lower edge index"
   },
   {
-    "date": "2026-03-27",
-    "message": "update TODO: route preview, haptics, Siri, route preferences all done"
+    "date": "2026-06-14",
+    "message": "test cost model: ups scenario, protected/unprotected left, prefs, zones, admissibility"
   },
   {
-    "date": "2026-03-27",
-    "message": "add route preview: full-screen map with ETA, distance, alternates before nav starts"
+    "date": "2026-06-14",
+    "message": "fix binary heap tests: extract mutating heap calls out of expect macro"
   },
   {
-    "date": "2026-03-27",
-    "message": "add Siri Shortcuts: 'Start my commute' and 'Check commute ETA' via App Intents"
+    "date": "2026-06-14",
+    "message": "add default cost model: turn costs, protected-left inference, prefs, zone soft/hard"
   },
   {
-    "date": "2026-03-27",
-    "message": "add haptic feedback system: 5 levels, per-event intensity, wired into nav engine and UI"
+    "date": "2026-06-14",
+    "message": "extend graph edges with oncoming-lane count and dedicated-left flag for turn costs"
   },
   {
-    "date": "2026-03-27",
-    "message": "add route preferences: toll and highway avoidance (global + per-commute)"
+    "date": "2026-06-14",
+    "message": "test BinaryHeap and AStarSearch: differential vs dijkstra, admissibility, snap, mid-edge (phase 3)"
   },
   {
-    "date": "2026-03-27",
-    "message": "setup: add App Group entitlement for extension data sharing"
+    "date": "2026-06-14",
+    "message": "add BinaryHeap and AStarSearch with snap-to-graph overlay (phase 3)"
   },
   {
-    "date": "2026-03-27",
-    "message": "update TODO: all on-device testing bugs fixed"
+    "date": "2026-06-14",
+    "message": "test router edge cases: heading snap, closed loops, malformed tags, antimeridian serialization (phase 2)"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: remove weak self from struct closures (HomeView is a value type)"
+    "date": "2026-06-14",
+    "message": "keep expired corridor cache for stale-fallback degradation (phase 2)"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: off-route detection and smart rerouting that avoids U-turns"
+    "date": "2026-06-14",
+    "message": "test shared tag parsing matrix and overpass loader (phase 2)"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: stop background location tracking when not navigating"
+    "date": "2026-06-14",
+    "message": "add overpass road-graph loader with corridor disk cache (phase 2)"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: smooth puck movement and rotation with 0.8s easeOut animation"
+    "date": "2026-06-14",
+    "message": "test road-graph builder and binary serializer (phase 1)"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: snap puck to route polyline so it stays centered on the route line"
+    "date": "2026-06-14",
+    "message": "add road-graph data model, builder, and binary serializer (phase 1)"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: compass uses route-based bearing for stable cardinal direction"
+    "date": "2026-06-13",
+    "message": "promote OSM tag parsing into shared OSMTagParsing namespace"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: speedometer color changes based on estimated speed limit from road type"
+    "date": "2026-06-13",
+    "message": "drop stale todo in emergency callContact \u2014 missing-contact prompt already wired through presentContactSetup"
   },
   {
-    "date": "2026-03-27",
-    "message": "fix: enable traffic conditions on map"
+    "date": "2026-06-13",
+    "message": "make rerouting route-preference scope explicit and store in variable to match preview path"
   },
   {
-    "date": "2026-03-27",
-    "message": "re-enable CarPlay navigation entitlement (approved by Apple, key: carplay-maps)"
+    "date": "2026-06-13",
+    "message": "test route-preference resolution edge cases \u2014 explicit commute opt-out beats global avoidance, highway override, both-globals ordering, apply(to:) mapping"
   },
   {
-    "date": "2026-03-27",
-    "message": "add on-device testing bugs: compass, route line, puck jitter, speedometer, off-route handling, traffic"
+    "date": "2026-06-13",
+    "message": "polish emergency mode: hierarchy, accessibility, haptics, safe contact-setup draft and missing-contact prompt"
   },
   {
-    "date": "2026-03-27",
-    "message": "reframe implementation plan as living constitution, not static bible"
+    "date": "2026-06-13",
+    "message": "polish route preview toll/highway badges and add active-avoidance indicators"
   },
   {
-    "date": "2026-03-27",
-    "message": "add design philosophy: routing config belongs in context, not main settings"
+    "date": "2026-06-13",
+    "message": "surface active route-preference badge in nav overlay (portrait + landscape)"
   },
   {
-    "date": "2026-03-27",
-    "message": "make Now Playing mini-bar toggleable in settings"
+    "date": "2026-06-13",
+    "message": "add testable route-preference active detection (isActive, activeLabels, injectable resolve)"
   },
   {
-    "date": "2026-03-27",
-    "message": "add audio ducking policy: duck media for all alerts, never pause, independently configurable"
+    "date": "2026-06-13",
+    "message": "test camera edge cases \u2014 non-node elements, exclusive proximity threshold, heading-cone boundary, decay-reset survival, same-cell grid lookup"
   },
   {
-    "date": "2026-03-27",
-    "message": "add comprehensive implementation plan and design bible"
+    "date": "2026-06-13",
+    "message": "test camera overpass parsing, spatial lookup, proximity, and alert debounce"
   },
   {
-    "date": "2026-03-27",
-    "message": "add tunnel detection to dynamic theming"
+    "date": "2026-06-13",
+    "message": "add crowdsourced camera reporting to nav overlay report sheet"
   },
   {
-    "date": "2026-03-26",
-    "message": "comprehensive TODO update with all design decisions from planning session"
+    "date": "2026-06-13",
+    "message": "wire speed-camera alerts end to end with nav overlay banner"
   },
   {
-    "date": "2026-03-26",
-    "message": "add passenger mode and accessibility view to TODO"
+    "date": "2026-06-13",
+    "message": "add speed-camera haptic event and ducking-aware alert tone"
   },
   {
-    "date": "2026-03-26",
-    "message": "add speed traps, commute analytics, Siri, music, road memory, sunset theme, emergency mode, route preferences"
+    "date": "2026-06-13",
+    "message": "wire speed-camera proximity detection and per-session debounce into nav engine"
   },
   {
-    "date": "2026-03-26",
-    "message": "add no-go zones v2: road segments, polygons, named roads, time-based"
+    "date": "2026-06-13",
+    "message": "add SpeedCameraService with osm overpass fetch, spatial grid, and report crud"
+  },
+  {
+    "date": "2026-06-13",
+    "message": "add CameraReport model for crowdsourced enforcement-camera reports"
   }
 ]
