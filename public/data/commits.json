@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-15",
+    "message": "correct broadway speed-estimate test expectation"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "drop glass to solid fallback under system increase contrast"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "reset off-route recovery cap per trip"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "erase all 12 persisted models in deleteAllData"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "size speed-camera grid cell above the alert radius"
+  },
+  {
     "date": "2026-06-14",
     "message": "fix speed-limit estimate: add residential tier, lower default"
   },
@@ -178,25 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "glass pill slides under the active bottom-sheet tab (matchedgeometry)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "glass the speedometer housing (solid in over-limit warning state)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "glass route preview card + prominent glass for start/end/switch ctas"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "glass nav banners, bottom bar, speed-camera alert, reported toast, reroute card"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "glass the where-to search bar + gear cluster (portrait + landscape)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "glass the nav floating controls (portrait + landscape)"
   }
 ]
