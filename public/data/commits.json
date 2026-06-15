@@ -1,6 +1,22 @@
 [
   {
     "date": "2026-06-15",
+    "message": "fix trip-planner numbered stop badge to the on-fill accent pairing"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "converge onAccent-on-text-safe-accent ctas onto .steddiPrimary"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "converge white-on-accent-fill ctas onto .steddiPrimary"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "converge route-preview start + reroute switch ctas onto .steddiPrimary"
+  },
+  {
+    "date": "2026-06-15",
     "message": "de-flake oneshotlocation timing tests: assert behavior + time-limit, not wall-clock"
   },
   {
@@ -182,21 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "map: add contrasting casing under route polylines"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav overlay: legible over-limit speedometer + adaptive floating-cluster offset"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding emergency beat: fixed light-on-dark copy"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding turn-by-turn beat: fixed light-on-dark copy and hud mock"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding route-rules beat: fixed light-on-dark copy and graphic"
   }
 ]
