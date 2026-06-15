@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-06-14",
+    "message": "glass remaining landscape nav chrome; remove redundant shadows"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add soft scroll-edge glass to settings list"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "glass pill slides under the active bottom-sheet tab (matchedgeometry)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "glass the speedometer housing (solid in over-limit warning state)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "glass route preview card + prominent glass for start/end/switch ctas"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "glass nav banners, bottom bar, speed-camera alert, reported toast, reroute card"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "glass the where-to search bar + gear cluster (portrait + landscape)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "glass the nav floating controls (portrait + landscape)"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "add SteddiGlass vocabulary + reduce-transparency observer"
+  },
+  {
+    "date": "2026-06-14",
     "message": "enable live activities: add NSSupportsLiveActivities so dynamic island + lock screen nav work on device"
   },
   {
@@ -162,41 +198,5 @@
   {
     "date": "2026-06-13",
     "message": "polish route preview toll/highway badges and add active-avoidance indicators"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "surface active route-preference badge in nav overlay (portrait + landscape)"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add testable route-preference active detection (isActive, activeLabels, injectable resolve)"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test camera edge cases \u2014 non-node elements, exclusive proximity threshold, heading-cone boundary, decay-reset survival, same-cell grid lookup"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "test camera overpass parsing, spatial lookup, proximity, and alert debounce"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add crowdsourced camera reporting to nav overlay report sheet"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "wire speed-camera alerts end to end with nav overlay banner"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add speed-camera haptic event and ducking-aware alert tone"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "wire speed-camera proximity detection and per-session debounce into nav engine"
-  },
-  {
-    "date": "2026-06-13",
-    "message": "add SpeedCameraService with osm overpass fetch, spatial grid, and report crud"
   }
 ]
