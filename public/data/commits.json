@@ -1,6 +1,54 @@
 [
   {
     "date": "2026-06-14",
+    "message": "replace utc timezone force-unwrap with fallback chain"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "combine rdp count guard with endpoint binding"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "replace roadgraphbuilder endpoint force-unwraps with safe binding"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "coalesce theme timer reschedules to avoid timer thrashing"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "log eta fetch failure instead of silently swallowing it"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "clamp commutetrip day-of-week and hour to valid ranges"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "measure partial-edge step distance from trimmed geometry"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "bounds-check coordinates on roadgraph serialize and deserialize"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "guard equal weekday array lengths before indexing in mergeaggregates"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "guard off-route splice against out-of-range rejoin index"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "serialize liveactivity end and surface update failures to avoid double-end race"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "use precise etaseconds for reroute eta to preserve sub-minute precision"
+  },
+  {
+    "date": "2026-06-14",
     "message": "break onoffroute retain cycle by clearing closure on stopnavigation"
   },
   {
@@ -150,53 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "test phase 6 corridor validation over realistic fixtures"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add CorridorValidator (phase 6 harness)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix single-class affinity: reference corridor's available classes"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test phase 7 preference learning"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "wire learned weights into CustomRouter"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add PrefLearner + LearnedWeightsStore (phase 7 core)"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test phase 5 edge cases: inactive time-windowed zone, single-step + empty-maneuver adapter fallback, degenerate polygon, freeFlowDuration, off-rush hour, short corridor"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add Phase 5 tests: provider adapter, end-to-end, fallback, mappings"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "wire custom-routing flag: settings toggle + route-planner seam"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add RouteProviderSelector + factory with feature flag and auto-fallback"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add CustomRouter facade conforming to RouteProvider"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add StepSynthesizer: edge path to NavStep turn-by-turn"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add RouteProvider protocol abstracting route generation"
   }
 ]
