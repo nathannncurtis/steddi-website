@@ -1,6 +1,34 @@
 [
   {
     "date": "2026-06-14",
+    "message": "bounds-check chosen way before caching lastwayindex"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "clarify unknown road class is filtered at build time, not handled separately"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "remove unreachable zero-eta guard after savings check"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "consolidate reroute loop onto shared state so dismissed suggestions re-evaluate"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "exclude rejoin candidates at or past the destination and fix forward-only docstring"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "store edge lengthMeters as double end-to-end to stop snap fraction overflow"
+  },
+  {
+    "date": "2026-06-14",
+    "message": "fix astar same-edge round-trip path reconstruction"
+  },
+  {
+    "date": "2026-06-14",
     "message": "use on-accent foreground for active sheet tab label"
   },
   {
@@ -170,33 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "enable live activities: add NSSupportsLiveActivities so dynamic island + lock screen nav work on device"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix website sync: copy activity flat into public/data, not a nested output/ dir"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix route preview: set primary polyline identity before adding overlay so the line paints"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "docs: refresh readme, architecture, and todo for the finished app + routing engine"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "carplay: cancel watch/live tasks on disconnect, route preview uses map user location"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "carplay map: remove notification observers on deinit, expose user coordinate"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "default overridesGlobalNoGoZones to false for lightweight migration safety"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "test corridorValidator rejects real A* detour route"
   }
 ]
