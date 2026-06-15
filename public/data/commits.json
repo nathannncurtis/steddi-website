@@ -1,6 +1,78 @@
 [
   {
     "date": "2026-06-15",
+    "message": "regenerate project for round-10 fix files"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'fix/reroute-eta-comparability'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'fix/home-intent-threading'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a1d928bab562d6aeb'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "reroute: test symmetric eta comparison and identity-based candidate exclusion"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "reroute: compare candidate etas symmetrically and exclude active route by identity"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "align commute schedule wrap handling with timewindow.isactive day attribution"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "hop avfoundation delegate callbacks to main instead of assumeisolated trap"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "bound weatherkit hourly scan to [now, now+12h] via injected clock"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "bounds-check negative nodeindex in astar endpoint resolution"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "custom route eta from per-edge free-flow speeds, not a flat 30 mph baseline"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: homeview live activity, tab fallback, and inter-leg quiesce"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: extract sendable snapshot in CheckCommuteETAIntent before awaits"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "settings accent ring: contrast-bearing stroke"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "reported toast: thread high-contrast + text scale"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "speedometer mph caption: textSecondary over nav glass"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "nav bottom-bar: separator dot uses high-contrast-aware token"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "road-condition markers: pair fill with aa-correct on-fill glyph"
+  },
+  {
+    "date": "2026-06-15",
     "message": "regenerate project for round-9 fix files"
   },
   {
@@ -126,77 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "fix: hop commute notification authorizationStatus write to the main actor"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "a11y: use shared DaysOfWeekPicker for commute schedule day pickers"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast: dark fallback fill for hero wordmark under reduce transparency"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast: promote in-nav muted readouts to textSecondary over glass"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast: AA-correct on-fill foreground for reconfirm action chips"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast: AA-correct on-fill foreground for post-arrival condition chips"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast: fill selected mode pill + current-stop badge with accentBrand"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast: use warmRedText for 'end trip here' action label"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast: use sageText for reroute savings + search distance values"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: stripping a waypoint leg's departure step preserves its lead-in distance"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: corridor validator time-sanity uses free-flow time, not penalty-laden cost"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: hard no-go corridor zone now catches an edge crossing it between vertices"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a29b5519fd1523898'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "round-7 contrast stragglers + destructive button style + cold-launch map theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: commute eta intent steers to update on a migration-needed open error"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: orphan live activity sweep also runs at launch, not just homeview"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: carplay leg change re-targets the route instead of no-op startNavigation"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: speed-camera/speed-limit filters went omni-directional before first bearing"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: geocoding proximity re-rank dropped closer results before sorting"
   }
 ]
