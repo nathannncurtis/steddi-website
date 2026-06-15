@@ -1,6 +1,142 @@
 [
   {
     "date": "2026-06-15",
+    "message": "fix active sheet-tab pill contrast: accentbrand fill + onaccent label"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a44d6614196c72ff1'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a327b0a634763caad'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-aeac8a928468604c4'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'fix/routing-spatial-liveactivity'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a73ad5f4cdb52b7ac'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: source isdaytime from a real last-known location, not a cold manager"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: advance past multiple cleared steps per fix; harden off-route"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: drive oneshotlocation on the main actor with a hard timeout"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: compare reroute etas on the same mkdirections basis"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "route preview: casing on preview lines + fix active-indicator label contrast"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "map: add contrasting casing under route polylines"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "nav overlay: legible over-limit speedometer + adaptive floating-cluster offset"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding emergency beat: fixed light-on-dark copy"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding turn-by-turn beat: fixed light-on-dark copy and hud mock"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding route-rules beat: fixed light-on-dark copy and graphic"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding permissions beat: fixed light-on-dark copy"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding theme beat: fixed light-on-dark copy and card fill"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding card: fixed dark fallback fill so white copy stays legible"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "add fixed light-on-dark onboarding text tokens"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "home: expand 'new commute' tap targets to 44pt"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "nav: only consume the per-trip recovery budget on a committed rejoin"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "nav: re-prefetch speed limits and cameras after off-route splice"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "live-activity: end on terminate/disconnect regardless of isNavigating"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "speed-cameras: make grid candidate scan latitude-robust"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: pin threshold explainer sheet to app theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: daysofweek selected pills use brand fill with onaccent"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: commutedetail route badges and day pills use on-fill foreground"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: analytics window picker fills brand hue, label uses onaccent"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: tripcard next-stop distance uses sagetext"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: driverowcard traffic chip uses warmredtext on the tint"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: analytics stat/split values use sagetext/warmredtext on surface"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "routing: exclude polygon no-go zones an edge crosses without a vertex inside"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: locationcard eta uses traffic textcolor not raw fill hue"
+  },
+  {
+    "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a9f763ae261711bee'"
   },
   {
@@ -62,141 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "use onAccent on find-road/close-shape buttons; pin editor color scheme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "use onAccent for share-my-location button label"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "use onAccent for selected drawing-mode pill text"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "expand settings accent swatch tap targets to 44pt"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix onboarding skip footer contrast on dark hero in light theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "regenerate project for wave-1 round-4 fix files"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-ab45c8f40a9234ffd'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a01c35dc094dbc973'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a4bbe92bd460f872d'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'data-integrity-notif-fixes'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: trim leading/trailing edge by path position, not edgeindex value"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: scale graph snap cell-search radius to the snap distance"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix tunneldetection isnear pre-filter dropping n-s segments"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix polylineencoder.decode hanging on malformed input"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "pin color scheme on commutelistview and its new-commute sheet"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "register notification categories race-free in a single call"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "cascade-delete commutetrip rows when a commute is deleted"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "widget: show last-known commute eta with freshness label when idle"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav: add session generation + persist last-known commute eta for idle widget"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "carplay: re-present nav for each continuous trip leg instead of tearing down"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "carplay: keep media remote commands armed after disconnect"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test onAccent, contrasting foreground, and semantic text variants"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "expose category rgb + legible labelColor for contrast-safe chips"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add onAccent + semantic text tokens to SteddiTheme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add contrastingForeground + shared legible shifter to ContrastRatio"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "regenerate project for round-3 fix files"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a56c09a5addfa12cf'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-adf53736a7d006cd4'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a48e56bca17e31361'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-ae316a95e7889e4f0'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a339db74a4a5c9247'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "clear osm speed-limit index when a new route's prefetch fails"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "make carplay free-look auto-recenter a single cancellable task"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "capture value copies in carplay list handlers, not swiftdata models"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "wire phone-companion reroute switch button to real route swap"
   }
 ]
