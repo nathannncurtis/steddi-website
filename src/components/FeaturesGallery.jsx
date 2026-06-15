@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react'
 import RouterIcon from '@/components/ui/router-icon'
 import SlidersHorizontalIcon from '@/components/ui/sliders-horizontal-icon'
 import ShieldCheck from '@/components/ui/shield-check'
-import RefreshIcon from '@/components/ui/refresh-icon'
 import LocateIcon from '@/components/ui/locate-icon'
 import BrainCircuitIcon from '@/components/ui/brain-circuit-icon'
 import PlugConnectedIcon from '@/components/ui/plug-connected-icon'
@@ -10,30 +9,31 @@ import FilledBellIcon from '@/components/ui/filled-bell-icon'
 import PaintIcon from '@/components/ui/paint-icon'
 import ChartBarIcon from '@/components/ui/chart-bar-icon'
 import PlayerIcon from '@/components/ui/player-icon'
-import DownloadIcon from '@/components/ui/download-icon'
 import TriangleAlertIcon from '@/components/ui/triangle-alert-icon'
 import PhoneVolume from '@/components/ui/phone-volume'
 import TargetIcon from '@/components/ui/target-icon'
+import GaugeIcon from '@/components/ui/gauge-icon'
+import MapPinIcon from '@/components/ui/map-pin-icon'
 
 const featured = [
   { Icon: RouterIcon, title: 'Your Routes, Learned', desc: "Drive a route once. Steddi remembers it and follows your path every time, not whatever the algorithm thinks is best." },
-  { Icon: SlidersHorizontalIcon, title: 'Smart Reroute Thresholds', desc: "A sigmoid-scaled engine that adapts to your remaining drive time. Almost there? Higher bar. Long drive ahead? Smaller savings count." },
-  { Icon: ShieldCheck, title: 'No-Go Zones', desc: "Draw on the map, trace a road, drop waypoints. Avoid that sketchy intersection, the school zone, the construction that never ends." },
-  { Icon: LocateIcon, title: 'Commutes, Trips & Pins', desc: "Daily commutes with route hierarchies. Multi-stop road trips planned to the mile. Or just search and go. Three ways to navigate." },
-  { Icon: BrainCircuitIcon, title: 'Pattern Learning', desc: "Learns your schedule. Tuesday at 7am? Already knows where you're headed before you open the app." },
-  { Icon: FilledBellIcon, title: 'Smart Notifications', desc: "Checks traffic before your usual departure. If your commute is 40 minutes slower than normal, you'll know before you leave." },
+  { Icon: SlidersHorizontalIcon, title: 'Reroute Only When It Matters', desc: "A sigmoid-scaled threshold weighed against your remaining drive. Almost there? Higher bar. Long way to go? Smaller savings count. No detours through neighborhoods to shave 90 seconds." },
+  { Icon: TargetIcon, title: 'Custom Routing Engine', desc: "A from-scratch router built on the OpenStreetMap road graph — A* search with a cost model that knows an unprotected left across busy oncoming traffic is worth a right-hand detour. Opt-in, with Apple Maps as the safety net." },
+  { Icon: ShieldCheck, title: 'No-Go Zones', desc: "Draw freehand, trace a named road, drop dot-to-dot waypoints, or outline a polygon. Set time windows so a school zone only counts at 3pm. Steddi routes around them." },
+  { Icon: LocateIcon, title: 'Commutes, Trips & Pins', desc: "Daily commutes with both directions auto-detected. Multi-stop trips planned to the mile. Or just search and go. Three ways to navigate." },
+  { Icon: BrainCircuitIcon, title: 'Smart Commute Notifications', desc: "Learns your departure windows and checks traffic and weather before you leave. If today's commute is well off your normal, you'll know first — decided entirely on-device." },
 ]
 
 const compact = [
-  { Icon: RefreshIcon, title: 'Bidirectional Commutes', desc: "Auto-detects which direction you're heading." },
-  { Icon: PlugConnectedIcon, title: 'CarPlay', desc: "Full turn-by-turn on your car's display." },
-  { Icon: PaintIcon, title: 'Six Accent Colors', desc: "Pick a color and it flows through every screen." },
-  { Icon: ChartBarIcon, title: 'Commute Analytics', desc: "Your driving data visualized, on your device." },
-  { Icon: PlayerIcon, title: 'Now Playing', desc: "Album art and playback controls in the nav view." },
-  { Icon: DownloadIcon, title: 'Offline Ready', desc: "Routes cached locally. Works without signal." },
-  { Icon: TriangleAlertIcon, title: 'Speed Cameras & Hazards', desc: "Subtle alerts, not notification spam." },
-  { Icon: PhoneVolume, title: 'Haptic Feedback', desc: "Five intensity levels from off to fully custom." },
-  { Icon: TargetIcon, title: 'Purpose-Built Nav UI', desc: "Every pixel designed from scratch." },
+  { Icon: PaintIcon, title: 'Dynamic Theming', desc: "Solar, weather, temperature and tunnels, blended live." },
+  { Icon: GaugeIcon, title: 'Real Speed Limits', desc: "OSM limits with amber and red over-limit bands." },
+  { Icon: TriangleAlertIcon, title: 'Cameras & Road Memory', desc: "Speed traps, red-light cameras, remembered potholes." },
+  { Icon: MapPinIcon, title: 'Places & POI', desc: "Search, categorize, navigate or save — with review links." },
+  { Icon: PlayerIcon, title: 'Music, Ducked Not Paused', desc: "Now Playing mini-bar; guidance ducks audio, never stops it." },
+  { Icon: ChartBarIcon, title: 'Commute Analytics', desc: "Your driving trends, visualized, on your device." },
+  { Icon: PlugConnectedIcon, title: 'CarPlay & Widgets', desc: "Full nav on the dash, ETA widget, Live Activities, Siri." },
+  { Icon: FilledBellIcon, title: 'Emergency Mode', desc: "Share location, find nearby help, reach your contact." },
+  { Icon: PhoneVolume, title: 'Haptics & Voice', desc: "Five intensity levels and a premium voice picker." },
 ]
 
 export default function FeaturesGallery() {

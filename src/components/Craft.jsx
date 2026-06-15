@@ -18,7 +18,7 @@ const details = [
   {
     Icon: Cloud1Icon,
     title: 'Weather changes everything',
-    desc: 'Overcast skies trigger a muted grey palette. Rain darkens the interface. The app mirrors the world outside your windshield.',
+    desc: 'Overcast skies pull up a muted grey palette. Rain darkens the interface. Drive into a tunnel and the whole app fades to dark, then back. It mirrors the world outside your windshield.',
   },
   {
     Icon: MapPinIcon,

@@ -15,7 +15,7 @@ const points = [
   {
     icon: Wifi,
     title: 'Minimal network use',
-    text: "Apple Maps handles directions and search. Route matching uses an open-source service with no user identity attached. That's it.",
+    text: "Apple Maps handles directions and search. Route matching and the optional custom routing engine use open-source map data with no user identity attached. That's it.",
   },
   {
     icon: Trash2,
