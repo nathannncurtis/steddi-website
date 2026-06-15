@@ -1,6 +1,46 @@
 [
   {
     "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a3963f65116ab778a'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-ae726297a7c8c9325'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: widget treats a non-live eta with no fresh stamp as stale"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: snapshot commute @model fields before await in notification service"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "expand sub-44pt tap targets on the places and trips tabs"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "clear the terminal live eta on drive end so the idle widget isn't wrong"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "tear down the home nav overlay when the active trip is deleted"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "recheck navigation liveness after off-route recovery awaits"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test node-snapped endpoints terminate at the node with no overshoot"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix node-snapped endpoint overshooting by a full terminal edge"
+  },
+  {
+    "date": "2026-06-15",
     "message": "fix trip-planner numbered stop badge to the on-fill accent pairing"
   },
   {
@@ -158,45 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a44d6614196c72ff1'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a327b0a634763caad'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-aeac8a928468604c4'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'fix/routing-spatial-liveactivity'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a73ad5f4cdb52b7ac'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: source isdaytime from a real last-known location, not a cold manager"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: advance past multiple cleared steps per fix; harden off-route"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: drive oneshotlocation on the main actor with a hard timeout"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: compare reroute etas on the same mkdirections basis"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "route preview: casing on preview lines + fix active-indicator label contrast"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "map: add contrasting casing under route polylines"
   }
 ]
