@@ -1,6 +1,18 @@
 [
   {
     "date": "2026-06-15",
+    "message": "label nav floating toggles for voiceover"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "expand sub-44pt tap targets, add accessibility labels"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "make recenter button theme- and contrast-aware"
+  },
+  {
+    "date": "2026-06-15",
     "message": "correct broadway speed-estimate test expectation"
   },
   {
@@ -186,17 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "extend onboarding beats with showcase reel + reorder for showpiece"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "glass remaining landscape nav chrome; remove redundant shadows"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add soft scroll-edge glass to settings list"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "glass pill slides under the active bottom-sheet tab (matchedgeometry)"
   }
 ]
