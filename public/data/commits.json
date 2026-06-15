@@ -1,6 +1,138 @@
 [
   {
     "date": "2026-06-15",
+    "message": "de-flake oneshotlocation timing tests: assert behavior + time-limit, not wall-clock"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a3e3d04562d7bffcc'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a95a95d260a236c63'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-acdc19e7c1401b3be'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a40443f7d3546b75a'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a921f31e38edadd3f'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a2ef7ed7b4ae48f2c'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-ad7f72be18d19e316'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "donation sheet: pin dark + theme tokens from onboarding (no white flash), plain tip rows with accent prices (no link-blue)"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding ctas: continue/add-contact use in-flight accent fill + on-accent label, not glassProminent white-on-accent"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding: light status bar over fixed-dark backdrop + footer cta uses in-flight accent fill with on-accent label (drop glassProminent white-on-accent aa fail)"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix theme-beat header + selected-card icons: fixed-light, not accent-on-accent"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix(home): shrink-to-fit nav tab labels at large dynamic type"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix(home): remove false drag affordance from bottom sheet grabber"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix(home): resume banner button fills with accentBrand for aa contrast"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix(nav): sever orphaned off-route closure on homeview teardown"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix(nav): hold off-route recovery cap across whole trip, not per leg"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: enforce access=private/no/destination in the cost model"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: per-direction oncoming-lane count for asymmetric two-way roads"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "add swiftdata versioned schema + migration plan; pass it to app and read-only shared containers"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "tests: remainingPolyline geometry and reroute stay-cooldown suppression"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "route stay taps through dismissRerouteSuggestion so declines are recorded"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix reroute: compare path-aware etas, suppress just-declined route"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "make fetchETA(from:along:) path-aware via osrm; add remainingPolyline helper"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "share one navigationattributes source across app and live activity"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "do not end nav live activity on scene disconnect mid-drive"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix commute notifications: honor configured days-of-week so weekday-only commutes don't fire weekend alerts or waste wakeups"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "prevent speedometer clip at large dynamic type"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix tripcard in-progress badge accent-on-accent"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "remove dead fuzzyrouteparser (unused, mis-parsed highway directions)"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: assert steddiPrimary pairing (onAccent on accentBrand) clears aa"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "raise onboarding secondary/muted text tiers for lighter frosted-glass cards"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "add steddiPrimary button style \u2014 canonical accent CTA (onAccent on accentBrand glass)"
+  },
+  {
+    "date": "2026-06-15",
     "message": "fix theme-beat legibility: fixed-light selection chrome on the accent-tinted card"
   },
   {
@@ -66,137 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "onboarding route-rules beat: fixed light-on-dark copy and graphic"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding permissions beat: fixed light-on-dark copy"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding theme beat: fixed light-on-dark copy and card fill"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding card: fixed dark fallback fill so white copy stays legible"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add fixed light-on-dark onboarding text tokens"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "home: expand 'new commute' tap targets to 44pt"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav: only consume the per-trip recovery budget on a committed rejoin"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav: re-prefetch speed limits and cameras after off-route splice"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "live-activity: end on terminate/disconnect regardless of isNavigating"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "speed-cameras: make grid candidate scan latitude-robust"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: pin threshold explainer sheet to app theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: daysofweek selected pills use brand fill with onaccent"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: commutedetail route badges and day pills use on-fill foreground"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: analytics window picker fills brand hue, label uses onaccent"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: tripcard next-stop distance uses sagetext"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: driverowcard traffic chip uses warmredtext on the tint"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: analytics stat/split values use sagetext/warmredtext on surface"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: exclude polygon no-go zones an edge crosses without a vertex inside"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: locationcard eta uses traffic textcolor not raw fill hue"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a9f763ae261711bee'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a681687dd87645e1a'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a96759911b0982150'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a77f6d0a5e401689f'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix(places): legible +N delay badge foreground on traffic-status fill"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix(places): use category.labelColor for chip label to clear AA contrast"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test next-departure commute selection for idle eta widget"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "refresh idle commute eta widget on app foreground"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "wire pre-drive eta widget from commute-check background pass"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "home: high-contrast resume-trip banner, onAccent resume button"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "home: use sageText for commute card distance"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "home: center route loading overlay instead of bottom-pinning"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav: legible over-limit speed digit on glass via amberText"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "contrast stop-order badge per fill; pin trip editor color scheme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "use onAccent for selected place-icon glyph"
   }
 ]
