@@ -1,6 +1,58 @@
 [
   {
     "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a478d54a54d215ba8'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a3d8913b6ae627331'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "only credit edge distance between consecutively-snapped trace points"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix reverse and merge_to_* turn-lane classification"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "rekey a* state by directed edge for turn-aware optimality"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "use a proper one-shot location fix in check eta intent"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "guard read-only commute fetch against migration failure in eta intent"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "refresh widget eta each nav sync, throttled to minute changes"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "handle commute alert start and remind-me-later notification actions"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "route siri, carplay, and notification starts through a durable pending-action store"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "merge into existing notification categories instead of clobbering"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "dedupe map-matching seam by matched-geometry proximity"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "stop step-advance from clobbering live osm speed limit"
+  },
+  {
+    "date": "2026-06-15",
     "message": "label nav floating toggles for voiceover"
   },
   {
@@ -146,57 +198,5 @@
   {
     "date": "2026-06-14",
     "message": "drop force-unwrap in nextdeparturedate min computation"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "guard maxpoints divide-by-zero in buildroutesamples"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "recheck live session after each reroute eta await"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "guard empty polyline in rejoincandidates"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fall back to full edge geometry when step trim cannot resolve a cut"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "validate decoded roadgraph indices and guard edge/node access"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix locationservice deinit isolation: nonisolated token, drop main-actor call"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix observer/display-link leaks: deinit cleanup in LocationService and SteddiMapContainer"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fix map matching: terminate chunk loop on full consumption, measure distance from stitched line"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "center the showpiece card and cap tall content vertically"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "fall into home: morph the beat card into the where-to pill on completion"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "materialize glass wordmark plate on hero draw-complete + video seam"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "add morphing liquid glass showpiece card hosting the beat reel"
-  },
-  {
-    "date": "2026-06-14",
-    "message": "extend onboarding beats with showcase reel + reorder for showpiece"
   }
 ]
