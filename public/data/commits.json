@@ -1,6 +1,86 @@
 [
   {
     "date": "2026-06-16",
+    "message": "project: regenerate after round 28 merge"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'ui-contrast-nits-fresh'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-af3d3cdc7a4add0d5'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'fix-camera-banner-contrast-measured'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'fix-deeplink-dup-keys'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-a9a01467e5e833856'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: tests for out-of-range coord snap, bad-node build, non-finite edge speed"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "keep ad-hoc drives off the saved-route splice path after a mid-trip rebuild"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "guard switchToRoute against a reroute suggestion whose route was deleted mid-window"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "add camera-banner contrast measurement tests: imagerenderer composite + per-kind AA both themes with margin"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "speed-camera banner: draw title+distance via cameraBannerForeground (fix dark-theme washout); add legibleOverMap to portrait top-banner distance"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "add cameraBannerSurface/cameraBannerForeground: contrast the real kind-tint-over-scrim composite per theme"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding theme: use canonical WCAG picker for contrastingGlyph"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "donation: derive tip price color from shared tipRowFill/sheetSurface tokens"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "test: deep-link resolution \u2014 duplicate keys, malformed, and valid routes"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "trip planner: contrast-safe numbered map pin ring (dual stroke, no fixed white)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: reject non-finite/negative edge speed on graph deserialize"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: drop out-of-range/non-finite osm node coords at ingest"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix: tolerant deep-link parsing, never trap on duplicate query keys"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: reject out-of-range query coords in RoadGraph.snap"
+  },
+  {
+    "date": "2026-06-16",
     "message": "Merge branch 'worktree-agent-abd513064002f0b82'"
   },
   {
@@ -118,85 +198,5 @@
   {
     "date": "2026-06-16",
     "message": "test gps-trace-derived duration and post-backfill view-context visibility"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "refresh view context from store after background backfill/rebuild so changes appear without relaunch"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav: route turn distance formatters through unit-aware formatter (mi+ft / km+m)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "measurementunit: add unit-aware speed + spoken-name helpers"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "derive drive duration from gps trace span, not back-to-back date() calls"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a07077f7b55a979f4'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a56881a0a9243a9fc'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-abfe9567722e19ece'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "expand sub-44pt tap targets and add voiceover labels in homeview (search back arrow, resume button, top-bar gear, search pin)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "suppress reroute loop after a recovery splice so it doesn't contest the recovery"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix(tunnel): time-decay the blind-detection latch on sustained GPS dropout"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix(onboarding): match real Home pill glyph in settle morph (SteddiTheme.accent)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix(nogo): use surface-adaptive warmRedText for search-result map pin"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "route pref badge: harden separator dot over the map"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav overlay: voiceover label sweep for icon-only controls and readouts"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix established group store reverting to stale legacy on transient-nil group url"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a5449b544ce23ab37'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'fix-nav-widget-classification'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-af1e83e2e20033d85'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-acb8d4232d6f6ebc2'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a24f7fc648df536e3'"
   }
 ]
