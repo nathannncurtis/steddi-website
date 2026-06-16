@@ -1,6 +1,30 @@
 [
   {
     "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a533c33459a7bae75'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "theme: pin addlocationsheet to resolved steddi theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "theme: pin phonecompanionview cover to resolved steddi theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "theme: pin roadconditionreconfirmsheet to resolved steddi theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "theme: pin triparrivalpromptsheet to resolved steddi theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "theme: pin routepreviewview cover to resolved steddi theme"
+  },
+  {
+    "date": "2026-06-15",
     "message": "tests: compile commuteetawidget into the test target via project.yml so the staleness logic is testable"
   },
   {
@@ -174,29 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "routing: corridor validator trims partial terminal edges to the driven sub-segment"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "settings: pin notification explainer sheet to the steddi theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "chrome: track status-bar polarity to the rendered map darkness"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav: harden speed-camera banner legibility over the map"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: round distances instead of truncating in formatters"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test: prove pre-inverse store migrates to current schema with no explicit plan"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "drop misleading versioned-schema plan; document automatic lightweight migration"
   }
 ]
