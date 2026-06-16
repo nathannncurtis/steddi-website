@@ -1,202 +1,202 @@
 [
   {
     "date": "2026-06-15",
-    "message": "regenerate project for round-10 fix files"
+    "message": "Merge branch 'fix-glass-revision-nav-teardown'"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'fix/reroute-eta-comparability'"
+    "message": "Merge branch 'worktree-agent-a611189881fd3cefe'"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'fix/home-intent-threading'"
+    "message": "Merge branch 'worktree-agent-ac2602256a2b93442'"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a1d928bab562d6aeb'"
+    "message": "Merge branch 'misc-polish-cluster'"
   },
   {
     "date": "2026-06-15",
-    "message": "reroute: test symmetric eta comparison and identity-based candidate exclusion"
+    "message": "nav overlay: scrim the follow-on, street-name and trip-leg readouts over the map"
   },
   {
     "date": "2026-06-15",
-    "message": "reroute: compare candidate etas symmetrically and exclude active route by identity"
+    "message": "reroute: make the fallback eta basis symmetric so a degraded candidate can't fake savings"
   },
   {
     "date": "2026-06-15",
-    "message": "align commute schedule wrap handling with timewindow.isactive day attribution"
+    "message": "tests: assert onboarding card copy + glyphs clear aa on the dark surface"
   },
   {
     "date": "2026-06-15",
-    "message": "hop avfoundation delegate callbacks to main instead of assumeisolated trap"
+    "message": "onboarding: route focal icons through the frost-legible glyph + refresh contrast docs"
   },
   {
     "date": "2026-06-15",
-    "message": "bound weatherkit hourly scan to [now, now+12h] via injected clock"
+    "message": "onboarding: dark scrim behind showcase/ask beat cards so white copy reads"
   },
   {
     "date": "2026-06-15",
-    "message": "bounds-check negative nodeindex in astar endpoint resolution"
+    "message": "trip arrival: use sageText for arrived checkmark to clear the contrast floor"
   },
   {
     "date": "2026-06-15",
-    "message": "custom route eta from per-edge free-flow speeds, not a flat 30 mph baseline"
+    "message": "settings: use warmRedText for delete all data label so it clears aa"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: homeview live activity, tab fallback, and inter-leg quiesce"
+    "message": "map: label recenter button for voiceover and scale its glyph with dynamic type"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: extract sendable snapshot in CheckCommuteETAIntent before awaits"
+    "message": "route preview: clamp dynamic type on destination, eta/distance, and chips"
   },
   {
     "date": "2026-06-15",
-    "message": "settings accent ring: contrast-bearing stroke"
+    "message": "analytics: project recent-drives fetch so the gps blob isn't faulted for the list"
   },
   {
     "date": "2026-06-15",
-    "message": "reported toast: thread high-contrast + text scale"
+    "message": "routing: resolve dedicatedLeftLane per direction from turn:lanes:forward/backward"
   },
   {
     "date": "2026-06-15",
-    "message": "speedometer mph caption: textSecondary over nav glass"
+    "message": "tests: pin mid-drive rebuild re-adoption invariants"
   },
   {
     "date": "2026-06-15",
-    "message": "nav bottom-bar: separator dot uses high-contrast-aware token"
+    "message": "home: re-adopt a live nav session on rebuild instead of starting cold"
   },
   {
     "date": "2026-06-15",
-    "message": "road-condition markers: pair fill with aa-correct on-fill glyph"
+    "message": "navoverlay: re-resolve map glass scrim via glass revision"
   },
   {
     "date": "2026-06-15",
-    "message": "regenerate project for round-9 fix files"
+    "message": "scene: drive glass revision through environment, not .id rebuild"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'fix/nav-core-correctness'"
+    "message": "glass: re-resolve via environment revision instead of view identity"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-aae963149c3ed776c'"
+    "message": "Merge branch 'onboarding-contrast-polish'"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-aa61616a7a2bff166'"
+    "message": "Merge branch 'worktree-agent-a3205c89f54068e3c'"
   },
   {
     "date": "2026-06-15",
-    "message": "navengine: gate arrival on along-route progress, not just last-vertex proximity"
+    "message": "Merge branch 'worktree-agent-a6a3cc59a6ad0ca1f'"
   },
   {
     "date": "2026-06-15",
-    "message": "navengine: decay the eta speed estimate (ewma) so it tracks recent conditions"
+    "message": "nav overlay: harden remaining landscape readouts and reported toast"
   },
   {
     "date": "2026-06-15",
-    "message": "fix recenter button glyph contrast on near-white fill"
+    "message": "nav overlay: harden bottom bar and speedometer over the map"
   },
   {
     "date": "2026-06-15",
-    "message": "make trip arrival prompt scroll so buttons never collide"
+    "message": "nav overlay: harden inactive floating-control glyphs over the map"
   },
   {
     "date": "2026-06-15",
-    "message": "pin post-arrival sheet to app theme and make review state scroll"
+    "message": "nav overlay: harden landscape instruction card over the map"
   },
   {
     "date": "2026-06-15",
-    "message": "fix onboarding status-bar glyphs dark-on-dark in light theme"
+    "message": "nav overlay: extract shared legible-over-map text treatment"
   },
   {
     "date": "2026-06-15",
-    "message": "mapmatching: dedup seam against tail region, not lone tail vertex"
+    "message": "analytics: re-aggregate backfill into the view's context, not a throwaway"
   },
   {
     "date": "2026-06-15",
-    "message": "carplay dashboard: store and cancel the poll task so reconnect can't spin a duplicate"
+    "message": "routing: mirror the router's case-2 reverse collapse in the test oracle"
   },
   {
     "date": "2026-06-15",
-    "message": "live activity: end finished trip leg immediately on handoff so two don't stack"
+    "message": "routing: resolve edge geometry in O(1) from the edge's own range"
   },
   {
     "date": "2026-06-15",
-    "message": "models: persist route/trip/commute enums as raw columns with safe-default decode"
+    "message": "carplay: format route-preview distance per the user's units setting"
   },
   {
     "date": "2026-06-15",
-    "message": "analytics: drain legacy gps-summary backfill off the main actor"
+    "message": "carplay: use locale-aware arrival-time format in route preview"
   },
   {
     "date": "2026-06-15",
-    "message": "roadgraph deserializer: bound reserveCapacity against byte budget"
+    "message": "carplay: feed next-maneuver distance/time to maneuver banner, trip remaining to trip estimate"
   },
   {
     "date": "2026-06-15",
-    "message": "no-go zone validation: test route segments, not just vertices"
+    "message": "components: use warmredtext for the no-go zone badge's violated glyphs"
   },
   {
     "date": "2026-06-15",
-    "message": "fix last contrast stragglers: warmRed-as-text + white-on-accent map pin"
+    "message": "trips: make the visited-stop checkmark legible on the light form"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-ade25c86dcb0af7a7'"
+    "message": "onboarding: use legible secondary tier for 'choose a different contact'"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a448fce5c5bd21b10'"
+    "message": "onboarding: harden showcase affordance glyphs on the light-frost card"
   },
   {
     "date": "2026-06-15",
-    "message": "Merge branch 'contrast-convergence-pass'"
+    "message": "fix: route phonecompanion end through full teardown"
   },
   {
     "date": "2026-06-15",
-    "message": "test: off-route latch re-arm matrix + alert-debounce preservation across in-place restarts"
+    "message": "fix: latch commute arrival side-effects to fire exactly once"
   },
   {
     "date": "2026-06-15",
-    "message": "fix off-route: preserve passed-camera debounce across recovery splice and apple reroute"
+    "message": "threshold explainer: use theme surface token, not systemgray6"
   },
   {
     "date": "2026-06-15",
-    "message": "fix off-route: re-arm latch on every recovery early-return and reroute failure"
+    "message": "Merge branch 'worktree-agent-a8904592128c150ba'"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: durable pending-route store so carplay places tab and start navigation survive cold launch"
+    "message": "Merge branch 'worktree-agent-a22fd6b9afd83a875'"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: storage-warning banner uses contrasting on-fill foreground, not white-on-red"
+    "message": "Merge branch 'worktree-agent-ada796e3b2441a28f'"
   },
   {
     "date": "2026-06-15",
-    "message": "nav engine: preservingAlerts flag + alerted-set snapshot/restore for in-place restarts"
+    "message": "fix: union active duckers' session options so concurrent reasons don't clobber"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: end live activity asynchronously on scene reclaim to not block the main thread"
+    "message": "fix: radius-aware ring scan for road-condition grid at high latitude"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: feed lastknownlocation from the always-on location feed for solar theming"
+    "message": "fix: flip eta widget to stale at the freshness boundary, not next reload"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: never silently revert to the pre-migration legacy store on a group-open failure"
+    "message": "fix: dismiss carplay route-preview alert when navigation starts"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: cache weatherkit-unavailable verdict so commute passes stop re-hitting it"
+    "message": "fix: complete bgtask exactly once and honor cancellation in commute pass"
   },
   {
     "date": "2026-06-15",
-    "message": "fix: hop commute notification authorizationStatus write to the main actor"
+    "message": "recovery: never dedupe away the abandon-to-destination give-up candidate"
   }
 ]
