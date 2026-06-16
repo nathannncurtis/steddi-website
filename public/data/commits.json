@@ -1,202 +1,202 @@
 [
   {
     "date": "2026-06-16",
-    "message": "project: regenerate after round 23 merge"
+    "message": "Merge branch 'worktree-agent-abd513064002f0b82'"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-ad9435a2277026a02'"
+    "message": "Merge branch 'worktree-agent-af1840adf5a86b3c1'"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-afde43baa6dba1f81'"
+    "message": "Merge branch 'worktree-agent-a877fa0840cdd4c94'"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a328412e472898c9d'"
+    "message": "Merge branch 'worktree-agent-ada3be40eb6b648e4'"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-aed8ebbf8b51c12d9'"
+    "message": "tests: prove renamed enum raw columns migrate via originalName"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-ab83d37afc9e014a5'"
+    "message": "use one-decimal-precision band check in formatNavDistance so 9.9 stays 9.9 mi while 9.97 shows 10 mi"
   },
   {
     "date": "2026-06-16",
-    "message": "commute notifications: keep idle-ETA fallback direction consistent for single-direction commutes"
+    "message": "migration plan: document the four enum raw-column renames"
   },
   {
     "date": "2026-06-16",
-    "message": "nav: robustly seed the ETA speed EWMA so a first-fix spike can't collapse it"
+    "message": "models: map renamed enum raw columns from their pre-rename names"
   },
   {
     "date": "2026-06-16",
-    "message": "routing: reject CSR-inconsistent road-graph blobs on deserialize"
+    "message": "live activity: keep app group accent fresh on mid-drive accent change"
   },
   {
     "date": "2026-06-16",
-    "message": "tint live activity accent from shared app-group accentColor instead of hardcoded lavender"
+    "message": "cap donation onboarding beat at the dynamic-type ceiling and guard tip rows so the label/price never clip at large text"
   },
   {
     "date": "2026-06-16",
-    "message": "tests: lock 44pt hit targets for onboarding buttons"
+    "message": "cap onboarding hero supporting subtitle at the app dynamic-type ceiling so it can't crowd the headline at large text"
   },
   {
     "date": "2026-06-16",
-    "message": "onboarding: add minimumscalefactor to showcase body paragraphs"
+    "message": "decide formatNavDistance decimal band off the rounded value so 9.97 mi shows 10 mi not stray-decimal 10.0 mi"
   },
   {
     "date": "2026-06-16",
-    "message": "onboarding: 44pt hit targets + body minimumscalefactor on permissions/emergency cards"
+    "message": "no-go editor: back floating over-map glass chrome with the theme-aware mapGlassScrim"
   },
   {
     "date": "2026-06-16",
-    "message": "onboarding: raise footer cta + skip controls to 44pt hit targets"
+    "message": "carplay dashboard: only reassign shortcut buttons when state changes"
   },
   {
     "date": "2026-06-16",
-    "message": "nav: harden route-pref badge over map (scrim + glass + legibleOverMap)"
+    "message": "nav state: remove dead currentRemainingETA published property"
   },
   {
     "date": "2026-06-16",
-    "message": "haptic: isolate service to @MainActor for UIFeedbackGenerator safety"
+    "message": "nav overlay: baseline-align bottom-bar 'min' label so it stays put under dynamic type"
   },
   {
     "date": "2026-06-16",
-    "message": "voiceguidance: isolate service to @MainActor, drop assumeIsolated traps"
+    "message": "nav overlay: draw speed-camera title/distance with on-fill contrasting tokens over the kind-tinted glass"
   },
   {
     "date": "2026-06-16",
-    "message": "trips: thread highContrast/textScale through arrival card text"
+    "message": "nav overlay: render speedometer speed + limit in the user's unit (mph/km-h)"
   },
   {
     "date": "2026-06-16",
-    "message": "add map-glass scrim behind top-bar gear so its glyph reads in dark theme"
+    "message": "Merge branch 'worktree-agent-a72d11c94b96f9a2c'"
   },
   {
     "date": "2026-06-16",
-    "message": "nav: thread highContrast through route-preview destination name + chips"
+    "message": "Merge branch 'worktree-agent-a92e5a2e3f4c4f17d'"
   },
   {
     "date": "2026-06-16",
-    "message": "nav: thread highContrast/textScale through nowplaying mini-bar labels"
+    "message": "Merge branch 'worktree-agent-a71de3784f9f7a877'"
   },
   {
     "date": "2026-06-16",
-    "message": "project: regenerate after round 22 merge"
+    "message": "tests: unit-aware distance/speed/voice + reroute auto-dismiss vs deliberate stay"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a6ba86f49440ee928'"
+    "message": "nav cards: use steddiGlass for secondary buttons (stay/cancel) instead of stock .glass"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-abb7d806bd717747b'"
+    "message": "reroute: auto-dismiss timeout clears suggestion without arming 10-min suppression"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a4fa50b7c186ae832'"
+    "message": "nav engine: add unit-aware speed/limit display accessors (mph or km/h)"
   },
   {
     "date": "2026-06-16",
-    "message": "tests: assert fixed-theme suppression on the visible look, not the informational condition tag"
+    "message": "cap onboarding beat copy at the app dynamic-type ceiling so beats 2-6 don't scale unbounded to ax5"
   },
   {
     "date": "2026-06-16",
-    "message": "nogozone editor: route searchOverlay, snappingIndicator, errorBanner through steddiGlass"
+    "message": "draw speed-camera banner glyph in a contrasting on-fill color so it reads in light/dynamic-day"
   },
   {
     "date": "2026-06-16",
-    "message": "onboarding settle pill: add over-map scrim + per-glyph shadow to match the real home pill"
+    "message": "give slight-left forks a reduced penalty instead of the full unprotected-left cost"
   },
   {
     "date": "2026-06-16",
-    "message": "onboarding theme beat: partial dark scrim over the accent tint so copy clears aa with margin"
+    "message": "voice: speak distance in the user's unit (feet/miles or meters/kilometers)"
   },
   {
     "date": "2026-06-16",
-    "message": "tests: cover refresh path driving theme weather/temperature + fixed-theme suppression"
+    "message": "test gps-trace-derived duration and post-backfill view-context visibility"
   },
   {
     "date": "2026-06-16",
-    "message": "theming: refresh weather on each location fix to drive weather/temperature layers"
+    "message": "refresh view context from store after background backfill/rebuild so changes appear without relaunch"
   },
   {
     "date": "2026-06-16",
-    "message": "nav: floor the destructive cta (end) hit target at 44pt"
+    "message": "nav: route turn distance formatters through unit-aware formatter (mi+ft / km+m)"
   },
   {
     "date": "2026-06-16",
-    "message": "routing: revalidate deserialized graphMaxSpeedMPS to keep a* heuristic admissible"
+    "message": "measurementunit: add unit-aware speed + spoken-name helpers"
   },
   {
     "date": "2026-06-16",
-    "message": "weather: push temperature layer + throttle failed fetches off attempt time"
+    "message": "derive drive duration from gps trace span, not back-to-back date() calls"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a405dd7b5364dd3b1'"
+    "message": "Merge branch 'worktree-agent-a07077f7b55a979f4'"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-ab1889d26038ce70c'"
+    "message": "Merge branch 'worktree-agent-a56881a0a9243a9fc'"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-aa4e2dabfd3baed21'"
+    "message": "Merge branch 'worktree-agent-abfe9567722e19ece'"
   },
   {
     "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a6475b674580f340a'"
+    "message": "expand sub-44pt tap targets and add voiceover labels in homeview (search back arrow, resume button, top-bar gear, search pin)"
   },
   {
     "date": "2026-06-16",
-    "message": "tests: cover self-touching reverse-twin guard and switchback seam fold"
+    "message": "suppress reroute loop after a recovery splice so it doesn't contest the recovery"
   },
   {
     "date": "2026-06-16",
-    "message": "map-matching: bound seam dedupe window so it can't consume a switchback fold"
+    "message": "fix(tunnel): time-decay the blind-detection latch on sustained GPS dropout"
   },
   {
     "date": "2026-06-16",
-    "message": "fix(home): use contrast-safe accent fill on empty-state pills; add over-map shadow to landscape search pill"
+    "message": "fix(onboarding): match real Home pill glyph in settle morph (SteddiTheme.accent)"
   },
   {
     "date": "2026-06-16",
-    "message": "fix(nav): cancel prior osm corridor prefetch before starting a new one"
+    "message": "fix(nogo): use surface-adaptive warmRedText for search-result map pin"
   },
   {
     "date": "2026-06-16",
-    "message": "fix(nav): consume recovery budget on genuine abandon so recovery can't nag forever"
+    "message": "route pref badge: harden separator dot over the map"
   },
   {
     "date": "2026-06-16",
-    "message": "routing: require genuine reversed geometry for co-located reverse twin"
+    "message": "nav overlay: voiceover label sweep for icon-only controls and readouts"
   },
   {
     "date": "2026-06-16",
-    "message": "no-go zone editor: route floating controls through glass for opaque fallback"
+    "message": "fix established group store reverting to stale legacy on transient-nil group url"
   },
   {
     "date": "2026-06-16",
-    "message": "reroute card: draw countdown ring in contrast-adaptive on-card color"
+    "message": "Merge branch 'worktree-agent-a5449b544ce23ab37'"
   },
   {
     "date": "2026-06-16",
-    "message": "fix(nav): evaluate reroute promptly after start, not after a 5-min sleep"
+    "message": "Merge branch 'fix-nav-widget-classification'"
   },
   {
     "date": "2026-06-16",
-    "message": "scope offlinecacheservice clearcache to own route-cache files, not whole dir"
+    "message": "Merge branch 'worktree-agent-af1e83e2e20033d85'"
   },
   {
     "date": "2026-06-16",
-    "message": "cap carplay commutes list at 12 to match places and respect cplisttemplate limit"
+    "message": "Merge branch 'worktree-agent-acb8d4232d6f6ebc2'"
   },
   {
     "date": "2026-06-16",
-    "message": "gate debug deep links (arrive, reset-onboarding) behind #if DEBUG"
+    "message": "Merge branch 'worktree-agent-a24f7fc648df536e3'"
   }
 ]
