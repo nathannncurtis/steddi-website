@@ -1,6 +1,10 @@
 [
   {
     "date": "2026-06-16",
+    "message": "Add urgent pause message to README"
+  },
+  {
+    "date": "2026-06-16",
     "message": "Merge branch 'worktree-agent-a15ae2150784be20e'"
   },
   {
@@ -194,9 +198,5 @@
   {
     "date": "2026-06-16",
     "message": "fix: tolerant deep-link parsing, never trap on duplicate query keys"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "routing: reject out-of-range query coords in RoadGraph.snap"
   }
 ]
