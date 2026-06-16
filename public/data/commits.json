@@ -1,6 +1,50 @@
 [
   {
     "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-aa676f9ca2952f32c'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-ae12f97e8db2db2c3'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-aa88b7175d08ad6fb'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "test(nav): exercise reroute suppression across the bestReroute await boundary"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix(nav): snapshot reroute suppression on main actor before bestReroute await"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "tests: reroute card on-surface foreground AA in both themes (every accent)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "search result card: expand Cancel hit area to 44pt minimum tap target"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "home: over-map scrim on the search pill + surface backing for 'No results'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "reroute card: contrast-adaptive text on the accent-tinted glass (light theme AA)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: test self-touching way node is not an intersection; shared node is"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: count distinct ways per node so a self-touching way is not an intersection"
+  },
+  {
+    "date": "2026-06-16",
     "message": "project: regenerate after round 19 merge"
   },
   {
@@ -154,49 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "analytics: move 1y/all aggregate rebuild off the main actor"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test: assert drive-time widget reloads are throttled"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test: destinationonlypenalty survives learned-weights save/load round-trip"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test: snap returns nil for nan/infinite coordinate instead of trapping"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: round-trip destinationonlypenalty in storedweights mirror"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: guard non-finite coord in roadgraph.snap to avoid cellindex trap"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "throttle drive-time widget reloads to a coarse cadence"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a533c33459a7bae75'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "theme: pin addlocationsheet to resolved steddi theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "theme: pin phonecompanionview cover to resolved steddi theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "theme: pin roadconditionreconfirmsheet to resolved steddi theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "theme: pin triparrivalpromptsheet to resolved steddi theme"
   }
 ]
