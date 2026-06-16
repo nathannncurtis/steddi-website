@@ -1,6 +1,62 @@
 [
   {
     "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-ab522bc5df4ed6453'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-ab785628ef7d4edce'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-a76e4d2750cf28e7c'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-ac371cec42b48ca41'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix: clear stale speed-limit index up front on a cache-miss corridor change"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "test: cover surfaced reroute suggestion surviving mid-display route deletion"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix: hold reroute suggestion as a sendable value snapshot, not a live @model"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "test: refreshfromstore preserves edits on save failure, faults on success"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding: lock settle-pill label to the real Home pill token (textPrimary)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix: don't rollback over unsaved edits when refresh save fails"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "settings: floor the haptics Try button at the 44pt hit target"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: guard PolylineEncoder.encode against non-finite coordinates"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: persist slightLeftPenalty through StoredWeights round-trip"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "trips: harden arrival-card subtitle + status glyph on the sage tint"
+  },
+  {
+    "date": "2026-06-16",
     "message": "project: regenerate after round 28 merge"
   },
   {
@@ -142,61 +198,5 @@
   {
     "date": "2026-06-16",
     "message": "nav overlay: baseline-align bottom-bar 'min' label so it stays put under dynamic type"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav overlay: draw speed-camera title/distance with on-fill contrasting tokens over the kind-tinted glass"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav overlay: render speedometer speed + limit in the user's unit (mph/km-h)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a72d11c94b96f9a2c'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a92e5a2e3f4c4f17d'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a71de3784f9f7a877'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "tests: unit-aware distance/speed/voice + reroute auto-dismiss vs deliberate stay"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav cards: use steddiGlass for secondary buttons (stay/cancel) instead of stock .glass"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "reroute: auto-dismiss timeout clears suggestion without arming 10-min suppression"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav engine: add unit-aware speed/limit display accessors (mph or km/h)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "cap onboarding beat copy at the app dynamic-type ceiling so beats 2-6 don't scale unbounded to ax5"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "draw speed-camera banner glyph in a contrasting on-fill color so it reads in light/dynamic-day"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "give slight-left forks a reduced penalty instead of the full unprotected-left cost"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "voice: speak distance in the user's unit (feet/miles or meters/kilometers)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "test gps-trace-derived duration and post-backfill view-context visibility"
   }
 ]
