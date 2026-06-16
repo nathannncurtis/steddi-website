@@ -1,6 +1,90 @@
 [
   {
     "date": "2026-06-15",
+    "message": "commute notifications: inject idle-eta sink so the widget-push test is parallel-safe"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-add091fdd00242845'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a5adad39c8645b143'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'fix/routing-correctness-corridor-preflearner'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a38261f181942a6f0'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a2da95a799a277ca5'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: prove additive-inverse migration is automatic via a single twin graph"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: snapshot reroute inputs before await to survive mid-drive deletion"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: serialize live activity lifecycle to prevent end-then-update race"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: make pre-inverse snapshot faithful so automatic migration succeeds"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "decouple idle commute-eta widget refresh from the notifications master toggle"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix siri commute-eta direction for overnight/wrapping schedule windows"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "wire real location into themeengine.shared so solar/golden-hour theming works"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "routing: fix turn-penalty even-share denominator to use broad buckets"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "routing: corridor validator trims partial terminal edges to the driven sub-segment"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "settings: pin notification explainer sheet to the steddi theme"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "chrome: track status-bar polarity to the rendered map darkness"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "nav: harden speed-camera banner legibility over the map"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: round distances instead of truncating in formatters"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: prove pre-inverse store migrates to current schema with no explicit plan"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "drop misleading versioned-schema plan; document automatic lightweight migration"
+  },
+  {
+    "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a4d47b58ed586a844'"
   },
   {
@@ -114,89 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "settings: use warmRedText for delete all data label so it clears aa"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "map: label recenter button for voiceover and scale its glyph with dynamic type"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "route preview: clamp dynamic type on destination, eta/distance, and chips"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "analytics: project recent-drives fetch so the gps blob isn't faulted for the list"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: resolve dedicatedLeftLane per direction from turn:lanes:forward/backward"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tests: pin mid-drive rebuild re-adoption invariants"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "home: re-adopt a live nav session on rebuild instead of starting cold"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "navoverlay: re-resolve map glass scrim via glass revision"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "scene: drive glass revision through environment, not .id rebuild"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "glass: re-resolve via environment revision instead of view identity"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'onboarding-contrast-polish'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a3205c89f54068e3c'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a6a3cc59a6ad0ca1f'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav overlay: harden remaining landscape readouts and reported toast"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav overlay: harden bottom bar and speedometer over the map"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav overlay: harden inactive floating-control glyphs over the map"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav overlay: harden landscape instruction card over the map"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav overlay: extract shared legible-over-map text treatment"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "analytics: re-aggregate backfill into the view's context, not a throwaway"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: mirror the router's case-2 reverse collapse in the test oracle"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: resolve edge geometry in O(1) from the edge's own range"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "carplay: format route-preview distance per the user's units setting"
   }
 ]
