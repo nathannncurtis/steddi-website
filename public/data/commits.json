@@ -1,5 +1,93 @@
 [
   {
+    "date": "2026-06-16",
+    "message": "project: regenerate after round 19 merge"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-ad50a37a29f63849b'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-a1f5f59414b5dc12e'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-afe4fa679b8bb9772'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-a9f782b3f850a375b'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-afeaa286902afcfb8'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: price the terminal U-turn onto a reverse-orientation goal arrival"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix: stop force-unwrapping CarPlay mapView before viewDidLoad"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix: re-target CarPlay nav across continuous-trip legs instead of cold-restarting"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix: don't force-end a continuous trip during a leg auto-advance"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "force a deterministic store-open failure in the recovery test"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "tests: nav hud dark-theme over-map legibility (imagerenderer + wcag)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "reroute card: drop lavender glass tint in dark theme + fix comment"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "nav hud: dark-theme over-map scrim to fix light-frost washout"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix stale doc comment to reference the real migration test"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "mapmatch: size seam dedupe tail window to the overlap span, not a fixed 8 vertices"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "test app recovers to legacy data when copied group store is unopenable"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "recover to legacy store when copied group store fails to open"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "widget tests: cover stale-but-shown navigating band is qualified"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "widget: qualify stale navigating eta the moment it stops being live"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding: scale hero headline + wordmark with dynamic type"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "tunnel: cosine-scale isNear longitude bbox so high-latitude segments aren't skipped"
+  },
+  {
     "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a387e5904d921f17c'"
   },
@@ -110,93 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "theme: pin triparrivalpromptsheet to resolved steddi theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "theme: pin routepreviewview cover to resolved steddi theme"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tests: compile commuteetawidget into the test target via project.yml so the staleness logic is testable"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "project: regenerate after round 17 merge"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a4ae440bdc7e6a340'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-adde061c7033495e4'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a8f4f1d35c6e349fa'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-af3f0b80208a1870c'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a27b7f0dd6c0a30c1'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tests: serialize liveactivityservice suite to fix pre-existing shared-singleton race"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "eta widget: fix stale-navigating test expectation (10-min entry is not-live but within idle freshness window)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix tap-target test height proposal to use greatestFiniteMagnitude"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "commute notifications: clarify snapshot doc comment (no longer nil on disabled)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "eta widget: treat a stale navigating entry as not-live so a killed drive doesn't show a phantom pill"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "navigation: make navigationstatemanager.formatarrivaltime locale-aware like the engine"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "deep links: wire steddi://search?q= to in-app search via pendinguiroute, drop dead notification"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "commute notifications: decouple idle widget eta from per-commute notificationsEnabled flag"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding theme: correct doc comments for the two-surface (glass on/off) model"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "extract HomeSheetTabLabel; add 44pt tab tap-target tests"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tests: cover theme-beat legibility in BOTH glass states (incl. Reduce Transparency)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding theme: branch copy/ring surface model on glass availability"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "theme: add onboardingCardFallbackFillRGB for the dark fallback surface model"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "navoverlay: pin theme on the report sheet"
   }
 ]
