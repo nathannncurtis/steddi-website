@@ -1,6 +1,98 @@
 [
   {
     "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a387e5904d921f17c'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a583da5492eb2d027'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-ad906e150845f2e9d'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a094ec8e3182fc6ff'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a6b1a422eb0fccf4b'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: explicitly save end-of-drive DriveRecord and in-drive Report"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: persist per-trip recovery budget across view rebuilds"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: zero etaSeconds/distanceRemainingMeters on arrival"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: stop the gps feed after a commute arrival"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix: snapshot road conditions so mid-drive deletion can't crash nav"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "guard the recommended chip + label row against large dynamic type overflow"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "floor trip planner controls at the 44pt tap target"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "floor no-go editor controls at the 44pt tap target"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "unduck media when camera tone fails to start playing"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix stray decimal in formatDistance for [9.95, 10.0) band"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "analytics: decode drivedetail gps blob off the main actor"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "analytics: move 1y/all aggregate rebuild off the main actor"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: assert drive-time widget reloads are throttled"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: destinationonlypenalty survives learned-weights save/load round-trip"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "test: snap returns nil for nan/infinite coordinate instead of trapping"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "routing: round-trip destinationonlypenalty in storedweights mirror"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "routing: guard non-finite coord in roadgraph.snap to avoid cellindex trap"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "throttle drive-time widget reloads to a coarse cadence"
+  },
+  {
+    "date": "2026-06-15",
     "message": "Merge branch 'worktree-agent-a533c33459a7bae75'"
   },
   {
@@ -106,97 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "navoverlay: pin theme on the report sheet"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routeplanner: pin theme on the presented full-screen cover"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tripplanner: pin theme on the presented full-screen cover"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "locationpicker: pin theme on the presented sheet"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "reposition recenter chip so it never overlaps the floating nav cluster"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "harden home gear glyph + search pill over-map legibility; expand tab tap targets to 44pt"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "harden trip arrival card over-map legibility (scrim + per-glyph shadow)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "analytics speed chart: clamp bucket index so out-of-order gps timestamps can't crash"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "navigation eta: trust observed crawl pace in stop-and-go instead of snapping to free-flow"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "commute notifications: inject idle-eta sink so the widget-push test is parallel-safe"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-add091fdd00242845'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a5adad39c8645b143'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'fix/routing-correctness-corridor-preflearner'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a38261f181942a6f0'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a2da95a799a277ca5'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test: prove additive-inverse migration is automatic via a single twin graph"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: snapshot reroute inputs before await to survive mid-drive deletion"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix: serialize live activity lifecycle to prevent end-then-update race"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "test: make pre-inverse snapshot faithful so automatic migration succeeds"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "decouple idle commute-eta widget refresh from the notifications master toggle"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix siri commute-eta direction for overnight/wrapping schedule windows"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "wire real location into themeengine.shared so solar/golden-hour theming works"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: fix turn-penalty even-share denominator to use broad buckets"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: corridor validator trims partial terminal edges to the driven sub-segment"
   }
 ]
