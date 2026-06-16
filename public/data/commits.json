@@ -1,6 +1,90 @@
 [
   {
     "date": "2026-06-16",
+    "message": "project: regenerate after round 23 merge"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-ad9435a2277026a02'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-afde43baa6dba1f81'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-a328412e472898c9d'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-aed8ebbf8b51c12d9'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-ab83d37afc9e014a5'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "commute notifications: keep idle-ETA fallback direction consistent for single-direction commutes"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "nav: robustly seed the ETA speed EWMA so a first-fix spike can't collapse it"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "routing: reject CSR-inconsistent road-graph blobs on deserialize"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "tint live activity accent from shared app-group accentColor instead of hardcoded lavender"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "tests: lock 44pt hit targets for onboarding buttons"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding: add minimumscalefactor to showcase body paragraphs"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding: 44pt hit targets + body minimumscalefactor on permissions/emergency cards"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding: raise footer cta + skip controls to 44pt hit targets"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "nav: harden route-pref badge over map (scrim + glass + legibleOverMap)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "haptic: isolate service to @MainActor for UIFeedbackGenerator safety"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "voiceguidance: isolate service to @MainActor, drop assumeIsolated traps"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "trips: thread highContrast/textScale through arrival card text"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "add map-glass scrim behind top-bar gear so its glyph reads in dark theme"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "nav: thread highContrast through route-preview destination name + chips"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "nav: thread highContrast/textScale through nowplaying mini-bar labels"
+  },
+  {
+    "date": "2026-06-16",
     "message": "project: regenerate after round 22 merge"
   },
   {
@@ -114,89 +198,5 @@
   {
     "date": "2026-06-16",
     "message": "gate debug deep links (arrive, reset-onboarding) behind #if DEBUG"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-aa676f9ca2952f32c'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-ae12f97e8db2db2c3'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-aa88b7175d08ad6fb'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "test(nav): exercise reroute suppression across the bestReroute await boundary"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix(nav): snapshot reroute suppression on main actor before bestReroute await"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "tests: reroute card on-surface foreground AA in both themes (every accent)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "search result card: expand Cancel hit area to 44pt minimum tap target"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "home: over-map scrim on the search pill + surface backing for 'No results'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "reroute card: contrast-adaptive text on the accent-tinted glass (light theme AA)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "routing: test self-touching way node is not an intersection; shared node is"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "routing: count distinct ways per node so a self-touching way is not an intersection"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "project: regenerate after round 19 merge"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-ad50a37a29f63849b'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a1f5f59414b5dc12e'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-afe4fa679b8bb9772'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a9f782b3f850a375b'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-afeaa286902afcfb8'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "routing: price the terminal U-turn onto a reverse-orientation goal arrival"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix: stop force-unwrapping CarPlay mapView before viewDidLoad"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix: re-target CarPlay nav across continuous-trip legs instead of cold-restarting"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix: don't force-end a continuous trip during a leg auto-advance"
   }
 ]
