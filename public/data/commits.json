@@ -1,6 +1,70 @@
 [
   {
     "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-a15ae2150784be20e'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'worktree-agent-a44326a99670f9e49'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'fix/nav-core-gaps'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "Merge branch 'fix/planner-map-glass-scrim'"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix reroute sub-floor test to use a remaining-time/savings combo that clears the percentage gate"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "re-warm osm speed-limit and camera corridor on ad-hoc apple-maps reroute so posted limits and camera alerts survive the rest of the drive"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "tests: pin .steddiprimary reduce-transparency fallback contrast (solid accentbrand + onaccent clears aa)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding: paint solid in-flight-accent capsule for the three primary ctas under reduce transparency"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "steddiglass: add prominent (fully-opaque) reduce-transparency fallback for primary/destructive ctas"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "add absolute-savings and near-arrival floors to reroute so a sub-minute saving can't pop a card before arrival"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "use contrast-safe glyph colors on report-sheet list rows"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "add surface-adaptive listGlyphColor to CameraReportKind"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "clear stale near-arrival eta on arrival linger so the widget doesn't show it as the next-commute eta"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "mode button: shrink-to-fit labels so they don't truncate at large dynamic type"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "trip planner: add mapGlassScrim behind over-map glass chrome to fix dark-theme washout"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "route planner: add mapGlassScrim behind over-map glass chrome to fix dark-theme washout"
+  },
+  {
+    "date": "2026-06-16",
     "message": "Merge branch 'worktree-agent-ab522bc5df4ed6453'"
   },
   {
@@ -134,69 +198,5 @@
   {
     "date": "2026-06-16",
     "message": "routing: reject out-of-range query coords in RoadGraph.snap"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-abd513064002f0b82'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-af1840adf5a86b3c1'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-a877fa0840cdd4c94'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "Merge branch 'worktree-agent-ada3be40eb6b648e4'"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "tests: prove renamed enum raw columns migrate via originalName"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "use one-decimal-precision band check in formatNavDistance so 9.9 stays 9.9 mi while 9.97 shows 10 mi"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "migration plan: document the four enum raw-column renames"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "models: map renamed enum raw columns from their pre-rename names"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "live activity: keep app group accent fresh on mid-drive accent change"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "cap donation onboarding beat at the dynamic-type ceiling and guard tip rows so the label/price never clip at large text"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "cap onboarding hero supporting subtitle at the app dynamic-type ceiling so it can't crowd the headline at large text"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "decide formatNavDistance decimal band off the rounded value so 9.97 mi shows 10 mi not stray-decimal 10.0 mi"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "no-go editor: back floating over-map glass chrome with the theme-aware mapGlassScrim"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "carplay dashboard: only reassign shortcut buttons when state changes"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav state: remove dead currentRemainingETA published property"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "nav overlay: baseline-align bottom-bar 'min' label so it stays put under dynamic type"
   }
 ]
