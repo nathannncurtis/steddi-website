@@ -1,6 +1,122 @@
 [
   {
     "date": "2026-06-15",
+    "message": "tests: compile commuteetawidget into the test target via project.yml so the staleness logic is testable"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "project: regenerate after round 17 merge"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a4ae440bdc7e6a340'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-adde061c7033495e4'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a8f4f1d35c6e349fa'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-af3f0b80208a1870c'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "Merge branch 'worktree-agent-a27b7f0dd6c0a30c1'"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "tests: serialize liveactivityservice suite to fix pre-existing shared-singleton race"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "eta widget: fix stale-navigating test expectation (10-min entry is not-live but within idle freshness window)"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "fix tap-target test height proposal to use greatestFiniteMagnitude"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "commute notifications: clarify snapshot doc comment (no longer nil on disabled)"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "eta widget: treat a stale navigating entry as not-live so a killed drive doesn't show a phantom pill"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "navigation: make navigationstatemanager.formatarrivaltime locale-aware like the engine"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "deep links: wire steddi://search?q= to in-app search via pendinguiroute, drop dead notification"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "commute notifications: decouple idle widget eta from per-commute notificationsEnabled flag"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding theme: correct doc comments for the two-surface (glass on/off) model"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "extract HomeSheetTabLabel; add 44pt tab tap-target tests"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "tests: cover theme-beat legibility in BOTH glass states (incl. Reduce Transparency)"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "onboarding theme: branch copy/ring surface model on glass availability"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "theme: add onboardingCardFallbackFillRGB for the dark fallback surface model"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "navoverlay: pin theme on the report sheet"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "routeplanner: pin theme on the presented full-screen cover"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "tripplanner: pin theme on the presented full-screen cover"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "locationpicker: pin theme on the presented sheet"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "reposition recenter chip so it never overlaps the floating nav cluster"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "harden home gear glyph + search pill over-map legibility; expand tab tap targets to 44pt"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "harden trip arrival card over-map legibility (scrim + per-glyph shadow)"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "analytics speed chart: clamp bucket index so out-of-order gps timestamps can't crash"
+  },
+  {
+    "date": "2026-06-15",
+    "message": "navigation eta: trust observed crawl pace in stop-and-go instead of snapping to free-flow"
+  },
+  {
+    "date": "2026-06-15",
     "message": "commute notifications: inject idle-eta sink so the widget-push test is parallel-safe"
   },
   {
@@ -82,121 +198,5 @@
   {
     "date": "2026-06-15",
     "message": "drop misleading versioned-schema plan; document automatic lightweight migration"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a4d47b58ed586a844'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "project: regenerate after round 15 merge (excl. routing)"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a0fb782786cc2bfb6'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a42d1cb8993aa55b4'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-ad6cfe978ee516713'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a229419045b4535bf'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: skip degenerate zero-length segments when computing turn bearings"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "routing: arrive at a two-way mid-edge destination from the cheaper side, no full-edge overshoot"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "make SteddiTheme.SteadyLine actually pulse, gated by reduce motion"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "stop weatherkit transient errors from disabling theming for 6 hours"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix speed-limit hysteresis pinning to a stale way after the driver leaves it"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tests: assert theme-beat copy + recommended chip clear aa for every accent"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding theme beat: route copy + recommended chip through on-surface legible foreground"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "reroute card: harden labels over the map and tint the glass with the brand fill accent"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nowplaying mini-bar: scrim + over-map legibility and a 44pt play/pause hit area"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "seed live activity with real eta/distance so it never shows 0 at start"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "add explicit commute <-> driverecord inverse with nullify delete rule"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "fix off-actor read of @mainactor location in background notification pass"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'fix-glass-revision-nav-teardown'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-a611189881fd3cefe'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'worktree-agent-ac2602256a2b93442'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "Merge branch 'misc-polish-cluster'"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "nav overlay: scrim the follow-on, street-name and trip-leg readouts over the map"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "reroute: make the fallback eta basis symmetric so a degraded candidate can't fake savings"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "tests: assert onboarding card copy + glyphs clear aa on the dark surface"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding: route focal icons through the frost-legible glyph + refresh contrast docs"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "onboarding: dark scrim behind showcase/ask beat cards so white copy reads"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "trip arrival: use sageText for arrived checkmark to clear the contrast floor"
-  },
-  {
-    "date": "2026-06-15",
-    "message": "settings: use warmRedText for delete all data label so it clears aa"
   }
 ]
