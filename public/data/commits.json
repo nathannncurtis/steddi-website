@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-06-16",
+    "message": "re-tint carplay maneuver glyphs on mid-drive accent change"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "remove dead processing background mode (no bgprocessingtask scheduled)"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "persist pinnedlocation explicitly in pin editor save()"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "reroute: slice baseline remainder by route progress, not global snap"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "speed-limit: direction-aware carriageway gate for freshly-advanced step"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "onboarding hero: legibleOverMap shadow + soft scrim behind hero copy"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "trip arrival sheet: expand secondary buttons to 44pt tap targets"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "anchor recenter chip above the scaled bottom bar + safe area"
+  },
+  {
+    "date": "2026-06-16",
+    "message": "fix grey theme textSecondary contrast: lift 0.80->0.93 to clear AA and restore primary>secondary>muted hierarchy"
+  },
+  {
+    "date": "2026-06-16",
     "message": "Add urgent pause message to README"
   },
   {
@@ -162,41 +198,5 @@
   {
     "date": "2026-06-16",
     "message": "add camera-banner contrast measurement tests: imagerenderer composite + per-kind AA both themes with margin"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "speed-camera banner: draw title+distance via cameraBannerForeground (fix dark-theme washout); add legibleOverMap to portrait top-banner distance"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "add cameraBannerSurface/cameraBannerForeground: contrast the real kind-tint-over-scrim composite per theme"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "onboarding theme: use canonical WCAG picker for contrastingGlyph"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "donation: derive tip price color from shared tipRowFill/sheetSurface tokens"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "test: deep-link resolution \u2014 duplicate keys, malformed, and valid routes"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "trip planner: contrast-safe numbered map pin ring (dual stroke, no fixed white)"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "routing: reject non-finite/negative edge speed on graph deserialize"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "routing: drop out-of-range/non-finite osm node coords at ingest"
-  },
-  {
-    "date": "2026-06-16",
-    "message": "fix: tolerant deep-link parsing, never trap on duplicate query keys"
   }
 ]
